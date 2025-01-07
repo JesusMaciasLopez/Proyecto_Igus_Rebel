@@ -1,4 +1,4 @@
 # Proyecto_Igus_Rebel
--#Descargar Ros
+## 1. Instalar ROS2 
 
--'sudo add-apt-repository universe'
+`sudo add-apt-repository universe`
