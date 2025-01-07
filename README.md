@@ -1,4 +1,4 @@
 # Proyecto_Igus_Rebel
-#Descargar Ros
+-#Descargar Ros
 
-'sudo add-apt-repository universe'
+-'sudo add-apt-repository universe'
