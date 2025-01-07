@@ -1,0 +1,37 @@
+[1.285s] Invoking command in '/home/jesus/p_mando/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jesus/p_mando/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jesus/p_mando/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jesus/p_mando/build/my_package/build install --record /home/jesus/p_mando/build/my_package/install.log --single-version-externally-managed install_data
+[1.715s] running egg_info
+[1.716s] creating ../../build/my_package/my_package.egg-info
+[1.747s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.748s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.748s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.748s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.748s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.748s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.815s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.816s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.816s] running build
+[1.816s] running build_py
+[1.817s] creating /home/jesus/p_mando/build/my_package/build
+[1.817s] creating /home/jesus/p_mando/build/my_package/build/lib
+[1.817s] creating /home/jesus/p_mando/build/my_package/build/lib/my_package
+[1.817s] copying my_package/__init__.py -> /home/jesus/p_mando/build/my_package/build/lib/my_package
+[1.817s] copying my_package/nodo_mando.py -> /home/jesus/p_mando/build/my_package/build/lib/my_package
+[1.818s] running install
+[1.827s] running install_lib
+[1.860s] creating /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my_package
+[1.861s] copying /home/jesus/p_mando/build/my_package/build/lib/my_package/__init__.py -> /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my_package
+[1.861s] copying /home/jesus/p_mando/build/my_package/build/lib/my_package/nodo_mando.py -> /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my_package
+[1.862s] byte-compiling /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my_package/__init__.py to __init__.cpython-312.pyc
+[1.862s] byte-compiling /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my_package/nodo_mando.py to nodo_mando.cpython-312.pyc
+[1.862s] running install_data
+[1.863s] creating /home/jesus/p_mando/install/my_package/share/ament_index
+[1.863s] creating /home/jesus/p_mando/install/my_package/share/ament_index/resource_index
+[1.863s] creating /home/jesus/p_mando/install/my_package/share/ament_index/resource_index/packages
+[1.863s] copying resource/my_package -> /home/jesus/p_mando/install/my_package/share/ament_index/resource_index/packages
+[1.863s] copying package.xml -> /home/jesus/p_mando/install/my_package/share/my_package
+[1.863s] running install_egg_info
+[1.898s] Copying ../../build/my_package/my_package.egg-info to /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[1.899s] running install_scripts
+[2.114s] Installing nodo_mando script to /home/jesus/p_mando/install/my_package/lib/my_package
+[2.115s] writing list of installed files to '/home/jesus/p_mando/build/my_package/install.log'
+[2.161s] Invoked command in '/home/jesus/p_mando/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jesus/p_mando/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jesus/p_mando/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jesus/p_mando/build/my_package/build install --record /home/jesus/p_mando/build/my_package/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing my_package.egg-info/PKG-INFO
+writing dependency_links to my_package.egg-info/dependency_links.txt
+writing entry points to my_package.egg-info/entry_points.txt
+writing requirements to my_package.egg-info/requires.txt
+writing top-level names to my_package.egg-info/top_level.txt
+reading manifest file 'my_package.egg-info/SOURCES.txt'
+writing manifest file 'my_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my-package.egg-link (link to .)
+Installing nodo_cinematica script to /home/jesus/p_mando/install/my_package/lib/my_package
+Installing nodo_cinematica_inv script to /home/jesus/p_mando/install/my_package/lib/my_package
+Installing nodo_mando script to /home/jesus/p_mando/install/my_package/lib/my_package
+
+Installed /home/jesus/p_mando/build/my_package
+running symlink_data

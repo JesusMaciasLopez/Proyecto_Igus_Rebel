@@ -1,0 +1,19 @@
+[1.711s] Invoking command in '/home/jesus/p_mando/build/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jesus/p_mando/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jesus/p_mando/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jesus/p_mando/build/my_package/build --no-deps symlink_data
+[2.327s] running develop
+[2.742s] running egg_info
+[2.781s] writing my_package.egg-info/PKG-INFO
+[2.781s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[2.782s] writing entry points to my_package.egg-info/entry_points.txt
+[2.782s] writing requirements to my_package.egg-info/requires.txt
+[2.782s] writing top-level names to my_package.egg-info/top_level.txt
+[2.866s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[2.867s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[2.906s] running build_ext
+[2.906s] Creating /home/jesus/p_mando/install/my_package/lib/python3.12/site-packages/my-package.egg-link (link to .)
+[2.907s] Installing nodo_cinematica script to /home/jesus/p_mando/install/my_package/lib/my_package
+[2.907s] Installing nodo_cinematica_inv script to /home/jesus/p_mando/install/my_package/lib/my_package
+[2.907s] Installing nodo_mando script to /home/jesus/p_mando/install/my_package/lib/my_package
+[2.908s] 
+[2.908s] Installed /home/jesus/p_mando/build/my_package
+[2.908s] running symlink_data
+[3.008s] Invoked command in '/home/jesus/p_mando/build/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jesus/p_mando/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jesus/p_mando/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jesus/p_mando/build/my_package/build --no-deps symlink_data
