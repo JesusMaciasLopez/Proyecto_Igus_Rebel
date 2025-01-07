@@ -19,53 +19,53 @@
 
 ## 2. Extras
 
- `sudo apt install mesa-utils`  
+`sudo apt install mesa-utils`  
  
-    `sudo apt install python3-pip`  
+`sudo apt install python3-pip`  
     
-    `sudo apt install jstest-gtk`   
+`sudo apt install jstest-gtk`   
     
-    `sudo apt install ros-jazzy-joy*`  
+`sudo apt install ros-jazzy-joy*`  
     
-    `sudo apt install ros-jazzy-joint-state-publisher`  
+`sudo apt install ros-jazzy-joint-state-publisher`  
     
-    `sudo apt install ros-jazzy-joint-state-publisher-gui`  
+`sudo apt install ros-jazzy-joint-state-publisher-gui`  
     
-    `sudo apt install ros-jazzy-ros2-control`  
+`sudo apt install ros-jazzy-ros2-control`  
     
-    `sudo apt install ros-jazzy-ros2-controllers`  
+`sudo apt install ros-jazzy-ros2-controllers`  
     
-    `sudo apt install ros-jazzy-ros-gz`  
+`sudo apt install ros-jazzy-ros-gz`  
     
-    `sudo apt install ros-jazzy-gz-ros2-control `  
+`sudo apt install ros-jazzy-gz-ros2-control `  
     
-    `sudo apt install ros-jazzy-navigation2`  
+`sudo apt install ros-jazzy-navigation2`  
     
-    `sudo apt install ros-jazzy-nav2-bringup`  
+`sudo apt install ros-jazzy-nav2-bringup`  
 
-    ## 3. Instalar numpy
+## 3. Instalar numpy
 
-    `pip install numpy`
+`pip install numpy`
 
-    #### 3.1 Si no instala
+#### 3.1 Si no instala
 
-    `python3 -m venv ~/mi_venv`
+`python3 -m venv ~/mi_venv`
 
-    `source ~/mi_venv/bin/activate`
+`source ~/mi_venv/bin/activate`
 
-    `pip install numpy`
+`pip install numpy`
 
-    ## 4. Crear el repositorio
+## 4. Crear el repositorio
 
-    `mkdir <Nombre repo>`
+`mkdir <Nombre repo>`
 
-    `cd <Nombre repo>`
+`cd <Nombre repo>`
 
-    `mkdir src`
+`mkdir src`
 
-    `colcon build`
+`colcon build`
 
-    `ros2 pkg create my_package --build-type ament_python --node-name <Nombre nodo>
+`ros2 pkg create my_package --build-type ament_python --node-name <Nombre nodo>`
     
     
 
