@@ -28,7 +28,7 @@ class PublicadorMando(Node):                                    #creamos una cla
 
 #Publicaremos el resultado que tenemos porque necesitamos trabajar con los valores que obtendremos de este programa para mover el robot
 
-        self.publicador = self.create_publisher(Twist, 'xyz_mando', AnchoBanda) #creamos un publicador que publica el topico xyz mando como variable twist cada tiempo especificado de la variable
+        self.publicador =  self.create_publisher(Twist, 'xyz_mando', AnchoBanda) #creamos un publicador que publica el topico xyz mando como variable twist cada tiempo especificado de la variable
         self.NombreNodo = self.get_name()                                       #obtenemos en nombre del nodo como una variable
         self.get_logger().info(f'{self.NombreNodo} inicializado')               #mensaje del loger en consola para que sepamos que a iniciado correctamente
 

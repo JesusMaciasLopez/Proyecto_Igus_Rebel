@@ -45,12 +45,18 @@ class cine_dir(Node):
     
     def cinematica_dir(self, angulo):
         param_tabla_DH = [
-            [0, np.pi/2, 150, angulo[0]],
-            [300, 0, 0, angulo[1]],
-            [250, 0, 0, angulo[2]],
-            [0, np.pi/2, 0, angulo[3]],
-            [0, -np.pi/2, 0, angulo[4]],
-            [0, 0, 100, angulo[5]]
+#            [0,     np.pi/2,    252,    angulo[0]+np.pi],
+ #           [237,   0,          0,      angulo[1]+np.pi/2],
+  #          [0,     np.pi/2,   0,      angulo[2]+np.pi/2],
+   #         [0,     -np.pi/2,    297,    angulo[3]],
+    #        [0,     np.pi/2,   0,      angulo[4]],
+     #       [0,     0,          126,    angulo[5]]
+            [0,     -np.pi/2,    252,    angulo[0]],
+            [237,   0,          0,      angulo[1]-np.pi/2],
+            [0,     np.pi/2,   0,      angulo[2]+np.pi/2],
+            [0,     -np.pi/2,    297,    angulo[3]],
+            [0,     np.pi/2,   0,      angulo[4]],
+            [0,     0,          126,    angulo[5]]
         ]
 
         T = np.eye(4)
@@ -80,15 +86,30 @@ class cine_dir(Node):
 
     def cinematica_dir_resultado(self):
         angulo = Float64MultiArray()
-        angulo.data = [0, 0, 0, 0, 0, 0]
+        angulo.data = [
+            np.radians(0), 
+            np.radians(0), 
+            np.radians(0), 
+            np.radians(0), 
+            np.radians(90), 
+            np.radians(0)
+            ]
 
         posicion, rotacion = self.cinematica_dir(angulo.data)
+
+        # Redondear valores cercanos a 0 para evitar errores de precisión
+        epsilon = 1e-10  # Umbral para considerar un número como 0
+        posicion = np.where(np.abs(posicion) < epsilon, 0, posicion)
+        rotacion = [0 if abs(r) < epsilon else r for r in rotacion]
         
         quaternion = cine_dir.funcionQuaterniones(
             rotacion[0] + self.ultimo_mando[3],
             rotacion[1] + self.ultimo_mando[4],
             rotacion[2] + self.ultimo_mando[5]
             )
+        self.get_logger().info(
+            f'x: {rotacion[0]}, y: {rotacion[1]}, z: {rotacion[2]}, ')
+
         msg_control = Pose()
         msg_control.position = Point(
             x=posicion[0] + self.ultimo_mando[0],
