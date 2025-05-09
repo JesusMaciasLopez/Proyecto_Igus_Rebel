@@ -112,9 +112,9 @@ class cine_dir(Node):
 
         msg_control = Pose()
         msg_control.position = Point(
-            x=posicion[0] + self.ultimo_mando[0],
-            y=posicion[1] + self.ultimo_mando[1],
-            z=posicion[2] + self.ultimo_mando[2]
+            x=(posicion[0] + self.ultimo_mando[0])/1000,
+            y=(posicion[1] + self.ultimo_mando[1])/1000,
+            z=(posicion[2] + self.ultimo_mando[2])/1000
         )
         msg_control.orientation = Quaternion(
             x=quaternion[0],

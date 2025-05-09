@@ -18,6 +18,12 @@ class PublicadorMando(Node):                                    #creamos una cla
         AnchoBanda.reliability = QoSReliabilityPolicy.RELIABLE  #definimos que la informacion no pierda paquetes en el camino
 
 #Esta variable la inicializamos para que cuando se ejecute ya tenga un valor de los 2 que puede tener, ya que si no tiene un valor el programa no ara nada asta que pulsemos las teclas que veremos despues en el programa
+        self.valorXanterior = 0
+        self.valorYanterior = 0
+        self.valorZanterior = 0
+        self.valorXangAnterior = 0
+        self.valorYangAnterior = 0
+        self.valorZangAnterior = 0
 
         self.modo = 1       #inicializamos una variable que define si esta en modo linial o angular(la inicializamos en linial)
 
@@ -75,13 +81,21 @@ class PublicadorMando(Node):                                    #creamos una cla
 #En caso de querer ajustar las velocidades puede poner un multiplicador despues de cada linia
 
         if self.modo == 1:                                          #en caso de estar en modo linial trabajaremos con los valores liniales
-            xyz_mando.linear.x = valor_x * (2-(1+gatillo_rt))/2     #definimos cuanto nos movemos en el eje x
-            xyz_mando.linear.y = valor_y * (2-(1+gatillo_rt))/2     #definimos cuanto nos movemos en el eje y
-            xyz_mando.linear.z = valor_z * (2-(1+gatillo_rt))/2     #definimos cuanto nos movemos en el eje z
+            xyz_mando.linear.x = valor_x * (2-(1+gatillo_rt))/2 + self.valorXanterior    #definimos cuanto nos movemos en el eje x
+            xyz_mando.linear.y = valor_y * (2-(1+gatillo_rt))/2 + self.valorYanterior    #definimos cuanto nos movemos en el eje y
+            xyz_mando.linear.z = valor_z * (2-(1+gatillo_rt))/2 + self.valorZanterior    #definimos cuanto nos movemos en el eje z
         elif self.modo == 2:                                        #en caso de estar en modo angular trabajaremos con los valores angulares
-            xyz_mando.angular.x = valor_x * (2-(1+gatillo_rt))/2    #definimos cuanto nos movemos en el angulo rx
-            xyz_mando.angular.y = valor_y * (2-(1+gatillo_rt))/2    #definimos cuanto nos movemos en el angulo ry
-            xyz_mando.angular.z = valor_z * (2-(1+gatillo_rt))/2    #definimos cuanto nos movemos en el angulo rz
+            xyz_mando.angular.x = valor_x * (2-(1+gatillo_rt))/2 + self.valorXangAnterior  #definimos cuanto nos movemos en el angulo rx
+            xyz_mando.angular.y = valor_y * (2-(1+gatillo_rt))/2 + self.valorYangAnterior  #definimos cuanto nos movemos en el angulo ry
+            xyz_mando.angular.z = valor_z * (2-(1+gatillo_rt))/2 + self.valorZangAnterior  #definimos cuanto nos movemos en el angulo rz
+
+
+        self.valorXanterior = xyz_mando.linear.x
+        self.valorYanterior = xyz_mando.linear.y
+        self.valorZanterior = xyz_mando.linear.z
+        self.valorXangAnterior = xyz_mando.angular.x
+        self.valorYangAnterior = xyz_mando.angular.y
+        self.valorZangAnterior = xyz_mando.angular.z
 
 #Esto lo hacemos para comprovar que los valores que tenemos de la variable sean correctos
 #Ahora mandamos la variable asta el publicador de arriba del programa para que lo envie como un topico, luego este topico lo cojera otro nodo para trabajar con este

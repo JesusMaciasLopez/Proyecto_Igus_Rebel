@@ -22,7 +22,7 @@ setup(
         'console_scripts': [
             'nodo_mando = my_package.nodo_mando:main',
             'nodo_cinematica = my_package.nodo_cinematica:main',
-            'nodo_cinematica_inv = my_package.nodo_cinematica_inv:main',
+            'pose_moveit = my_package.nodo_pose_moveit:main',
         ],
     },
 )
