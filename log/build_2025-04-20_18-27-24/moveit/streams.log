@@ -1,0 +1,40 @@
+[0.145s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[0.691s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[0.707s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit
+[0.922s] -- Install configuration: "Debug"
+[0.930s] -- Execute custom install script
+[0.945s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+[0.955s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+[0.961s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.sh
+[0.970s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+[0.977s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.sh
+[0.979s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.dsv
+[0.988s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.bash
+[0.991s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.sh
+[0.999s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.zsh
+[1.006s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.dsv
+[1.023s] -- Symlinking: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.dsv
+[1.149s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/packages/moveit
+[1.158s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig.cmake
+[1.159s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+[1.160s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.xml
+[1.168s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/demo.launch.py
+[1.175s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/move_group.launch.py
+[1.180s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/moveit_rviz.launch.py
+[1.186s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/rsp.launch.py
+[1.189s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/setup_assistant.launch.py
+[1.194s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/spawn_controllers.launch.py
+[1.198s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py
+[1.207s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/warehouse_db.launch.py
+[1.213s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.ros2_control.xacro
+[1.219s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.srdf
+[1.243s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.urdf.xacro
+[1.258s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/initial_positions.yaml
+[1.280s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/joint_limits.yaml
+[1.280s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/kinematics.yaml
+[1.305s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/moveit.rviz
+[1.306s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/moveit_controllers.yaml
+[1.307s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml
+[1.307s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/ros2_controllers.yaml
+[1.308s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/.setup_assistant
+[1.313s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit

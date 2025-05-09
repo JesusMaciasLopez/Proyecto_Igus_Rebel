@@ -1,0 +1,20 @@
+[0.341s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4
+[7.157s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4
+[7.280s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit2_pose_target
+[7.413s] -- Install configuration: ""
+[7.415s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/ament_index/resource_index/package_run_dependencies/moveit2_pose_target
+[7.417s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/ament_index/resource_index/parent_prefix_path/moveit2_pose_target
+[7.419s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/ament_prefix_path.sh
+[7.420s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/ament_prefix_path.dsv
+[7.422s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/path.sh
+[7.423s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/path.dsv
+[7.424s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.bash
+[7.434s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.sh
+[7.436s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.zsh
+[7.447s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.dsv
+[7.448s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/package.dsv
+[7.449s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/ament_index/resource_index/packages/moveit2_pose_target
+[7.454s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/cmake/moveit2_pose_targetConfig.cmake
+[7.455s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/cmake/moveit2_pose_targetConfig-version.cmake
+[7.455s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/package.xml
+[7.489s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit2_pose_target

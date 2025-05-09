@@ -1,0 +1,126 @@
+[0.431s] Invoking command in '/home/perry/Jesus/Prueba6/build/irc_ros_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/irc_ros_description -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/irc_ros_description
+[1.009s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.030s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.769s] -- Configuring done
+[5.906s] -- Generating done
+[5.986s] -- Build files have been written to: /home/perry/Jesus/Prueba6/build/irc_ros_description
+[8.338s] Invoked command in '/home/perry/Jesus/Prueba6/build/irc_ros_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/irc_ros_description -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/irc_ros_description
+[8.365s] Invoking command in '/home/perry/Jesus/Prueba6/build/irc_ros_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/irc_ros_description -- -j4 -l4
+[9.057s] Invoked command in '/home/perry/Jesus/Prueba6/build/irc_ros_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/irc_ros_description -- -j4 -l4
+[9.333s] Invoking command in '/home/perry/Jesus/Prueba6/build/irc_ros_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/irc_ros_description
+[9.514s] -- Install configuration: "Debug"
+[9.520s] -- Execute custom install script
+[9.562s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/body.dae
+[9.569s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/bodyColl.dae
+[9.585s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/wheel.dae
+[9.588s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/wheelColl.dae
+[9.590s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/gripper_schmalz_ecbpmi/Joint0.dae
+[9.602s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/gripper_schmalz_ecbpmi/Joint0Coll.dae
+[9.604s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint0.dae
+[9.616s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint0Coll.dae
+[9.618s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint1.dae
+[9.620s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint1Coll.dae
+[9.627s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint2.dae
+[9.651s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint2Coll.dae
+[9.655s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint3.dae
+[9.680s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint3Coll.dae
+[9.689s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint4.dae
+[9.697s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint4Coll.dae
+[9.699s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint0.dae
+[9.723s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint0Coll.dae
+[9.724s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint1.dae
+[9.726s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint1Coll.dae
+[9.735s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint2.dae
+[9.750s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint2Coll.dae
+[9.752s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint3.dae
+[9.757s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint3Coll.dae
+[9.774s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint4.dae
+[9.777s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint4Coll.dae
+[9.779s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint0.dae
+[9.781s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint0Coll.dae
+[9.782s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint1.dae
+[9.786s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint1Coll.dae
+[9.793s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint2.dae
+[9.818s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint2Coll.dae
+[9.820s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint3.dae
+[9.821s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint3Coll.dae
+[9.828s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint4.dae
+[9.833s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint4Coll.dae
+[9.837s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint5.dae
+[9.843s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint5Coll.dae
+[9.848s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint6.dae
+[9.850s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint6Coll.dae
+[9.852s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint0.dae
+[9.866s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint0Coll.dae
+[9.867s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint1.dae
+[9.879s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint1Coll.dae
+[9.881s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint2.dae
+[9.882s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint2Coll.dae
+[9.901s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint3.dae
+[9.902s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint3Coll.dae
+[9.908s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint4.dae
+[9.912s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint4Coll.dae
+[9.914s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint5.dae
+[9.915s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint5Coll.dae
+[9.916s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint6.dae
+[9.934s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint6Coll.dae
+[9.936s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint0.dae
+[9.938s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint0Coll.dae
+[9.952s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint1.dae
+[9.957s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint1Coll.dae
+[9.958s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint2.dae
+[9.960s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint2Coll.dae
+[9.961s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint3.dae
+[9.974s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint3Coll.dae
+[9.975s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint4.dae
+[9.990s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint4Coll.dae
+[9.995s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint5.dae
+[10.009s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint5Coll.dae
+[10.017s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/launch/visualize.launch.py
+[10.023s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/cpr_platform_medium.urdf.xacro
+[10.031s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/ext_dio_gripper.description.xacro
+[10.033s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/ext_dio_gripper.ros2_control.xacro
+[10.037s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/grippers.macro.xacro
+[10.050s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/schmalz_ecbpmi.description.xacro
+[10.062s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_rebel_4dof.urdf.xacro
+[10.092s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_rebel_6dof.urdf.xacro
+[10.107s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_robolink_rl_dp_5.urdf.xacro
+[10.114s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/modules/din_rail.ros2_control.xacro
+[10.128s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/modules/rebel.ros2_control.xacro
+[10.144s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.description.xacro
+[10.146s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.macro.xacro
+[10.156s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.ros2_control.xacro
+[10.158s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/rebel_on_platform.urdf.xacro
+[10.166s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof.macro.xacro
+[10.168s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_00.description.xacro
+[10.175s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_00.ros2_control.xacro
+[10.181s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_01.description.xacro
+[10.184s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_01.ros2_control.xacro
+[10.186s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof.macro.xacro
+[10.205s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_00.description.xacro
+[10.217s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_00.ros2_control.xacro
+[10.219s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_01.description.xacro
+[10.238s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_01.ros2_control.xacro
+[10.239s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_pre.description.xacro
+[10.241s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_pre.ros2_control.xacro
+[10.243s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.description.xacro
+[10.253s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.macro.xacro
+[10.255s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.ros2_control.xacro
+[10.257s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/rviz/platform.rviz
+[10.278s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/rviz/rebel.rviz
+[10.280s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/package_run_dependencies/irc_ros_description
+[10.282s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/parent_prefix_path/irc_ros_description
+[10.284s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/ament_prefix_path.sh
+[10.286s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/ament_prefix_path.dsv
+[10.302s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/path.sh
+[10.323s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/path.dsv
+[10.326s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.bash
+[10.327s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.sh
+[10.346s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.zsh
+[10.348s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.dsv
+[10.365s] -- Symlinking: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.dsv
+[10.366s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/packages/irc_ros_description
+[10.377s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/cmake/irc_ros_descriptionConfig.cmake
+[10.379s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/cmake/irc_ros_descriptionConfig-version.cmake
+[10.382s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.xml
+[10.391s] Invoked command in '/home/perry/Jesus/Prueba6/build/irc_ros_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/irc_ros_description

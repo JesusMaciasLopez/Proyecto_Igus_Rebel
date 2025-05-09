@@ -1,0 +1,59 @@
+[0.337s] Invoking command in '/home/perry/Jesus/Prueba6/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/hello_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/hello_moveit
+[8.180s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.182s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.183s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[8.184s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[8.216s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.218s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.220s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.849s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[9.326s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[10.041s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.069s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.361s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.004s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[15.457s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[16.418s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[16.971s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.804s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[20.212s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[20.479s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[20.965s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.453s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.456s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/perry/Jesus/Prueba6/src/hello_moveit/include>
+[22.458s] -- Configured cppcheck exclude dirs and/or files: 
+[22.474s] -- Added test 'lint_cmake' to check CMake code style
+[22.483s] -- Added test 'uncrustify' to check C / C++ code style
+[22.484s] -- Configured uncrustify additional arguments: 
+[22.495s] -- Added test 'xmllint' to check XML markup files
+[22.518s] -- Configuring done
+[23.035s] -- Generating done
+[23.178s] -- Build files have been written to: /home/perry/Jesus/Prueba6/build/hello_moveit
+[23.786s] Invoked command in '/home/perry/Jesus/Prueba6/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/hello_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/hello_moveit
+[23.806s] Invoking command in '/home/perry/Jesus/Prueba6/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/hello_moveit -- -j4 -l4
+[24.647s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[24.860s] [ 50%] [32m[1mLinking CXX executable hello_moveit[0m
+[132.668s] [100%] Built target hello_moveit
+[132.773s] Invoked command in '/home/perry/Jesus/Prueba6/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/hello_moveit -- -j4 -l4
+[132.797s] Invoking command in '/home/perry/Jesus/Prueba6/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/hello_moveit
+[132.866s] -- Install configuration: "Debug"
+[132.872s] -- Execute custom install script
+[132.876s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/lib/hello_moveit/hello_moveit
+[132.965s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[133.050s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[133.154s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[133.218s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[133.318s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.sh
+[133.418s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[133.515s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.bash
+[133.626s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.sh
+[133.725s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[133.825s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[133.919s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.dsv
+[134.023s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[134.127s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[134.232s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[134.343s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.xml
+[134.474s] Invoked command in '/home/perry/Jesus/Prueba6/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/hello_moveit

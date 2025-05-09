@@ -1,0 +1,57 @@
+[0.306s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit2_pose_target -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit2_pose_target
+[8.533s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.534s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.534s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[8.535s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.558s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.559s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.562s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.987s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.120s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.327s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[10.552s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[13.478s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[13.724s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[13.928s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[14.417s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[15.665s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[16.197s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.048s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[18.374s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[18.599s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[19.017s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.085s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.090s] -- Configured cppcheck include dirs: 
+[20.092s] -- Configured cppcheck exclude dirs and/or files: 
+[20.114s] -- Added test 'lint_cmake' to check CMake code style
+[20.139s] -- Added test 'uncrustify' to check C / C++ code style
+[20.141s] -- Configured uncrustify additional arguments: 
+[20.145s] -- Added test 'xmllint' to check XML markup files
+[20.161s] -- Configuring done
+[20.320s] -- Generating done
+[20.356s] -- Build files have been written to: /home/perry/Jesus/Prueba6/build/moveit2_pose_target
+[20.483s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit2_pose_target -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit2_pose_target
+[20.486s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4
+[21.152s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4
+[21.165s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit2_pose_target
+[21.353s] -- Install configuration: "Debug"
+[21.354s] -- Execute custom install script
+[21.361s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/ament_index/resource_index/package_run_dependencies/moveit2_pose_target
+[21.366s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/ament_index/resource_index/parent_prefix_path/moveit2_pose_target
+[21.371s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/ament_prefix_path.sh
+[21.379s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/ament_prefix_path.dsv
+[21.387s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/path.sh
+[21.396s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/environment/path.dsv
+[21.402s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.bash
+[21.410s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.sh
+[21.423s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.zsh
+[21.427s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/local_setup.dsv
+[21.436s] -- Symlinking: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/package.dsv
+[21.627s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/ament_index/resource_index/packages/moveit2_pose_target
+[21.632s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/cmake/moveit2_pose_targetConfig.cmake
+[21.635s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/cmake/moveit2_pose_targetConfig-version.cmake
+[21.647s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit2_pose_target/share/moveit2_pose_target/package.xml
+[21.687s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit2_pose_target

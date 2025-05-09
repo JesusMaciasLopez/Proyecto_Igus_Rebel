@@ -1,0 +1,22 @@
+[0.226s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4
+[1.272s] [35m[1mConsolidate compiler generated dependencies of target move_to_pose_node[0m
+[1.665s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_pose_node.dir/src/move_to_pose_node.cpp.o[0m
+[92.737s] [01m[K/home/perry/Jesus/Prueba6/src/moveit2_pose_target/src/move_to_pose_node.cpp:[m[K In constructor ‘[01m[KMoveToPoseNode::MoveToPoseNode()[m[K’:
+[92.751s] [01m[K/home/perry/Jesus/Prueba6/src/moveit2_pose_target/src/move_to_pose_node.cpp:11:84:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+[92.754s]    11 |     move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>([01;31m[Kshared_from_this[m[K(), "arm");
+[92.755s]       |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[92.759s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[92.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[92.768s]                  from [01m[K/home/perry/Jesus/Prueba6/src/moveit2_pose_target/src/move_to_pose_node.cpp:1[m[K:
+[92.771s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = MoveToPoseNode][m[K’
+[92.775s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[92.776s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[92.777s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = MoveToPoseNode][m[K’
+[92.787s]   807 |       [01;36m[Kshared_from_this[m[K()
+[92.789s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[92.791s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+[92.794s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[92.796s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[92.799s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+[92.807s]   807 |       [01;36m[Kshared_from_this[m[K()
+[92.809s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K

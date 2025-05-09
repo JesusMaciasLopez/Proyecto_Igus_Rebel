@@ -1,0 +1,23 @@
+[0.354s] Invoking command in '/home/perry/Jesus/Prueba6/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/hello_moveit -- -j4 -l4
+[1.406s] [100%] Built target hello_moveit
+[7.430s] Invoked command in '/home/perry/Jesus/Prueba6/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/hello_moveit -- -j4 -l4
+[7.546s] Invoking command in '/home/perry/Jesus/Prueba6/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/hello_moveit
+[7.659s] -- Install configuration: "Debug"
+[7.671s] -- Execute custom install script
+[7.679s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/lib/hello_moveit/hello_moveit
+[7.686s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[7.697s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[7.706s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[7.730s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[7.731s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.sh
+[7.732s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[7.743s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.bash
+[7.770s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.sh
+[7.772s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[7.773s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[7.783s] -- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.dsv
+[7.926s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[7.928s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[7.934s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[7.946s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.xml
+[8.009s] Invoked command in '/home/perry/Jesus/Prueba6/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/hello_moveit

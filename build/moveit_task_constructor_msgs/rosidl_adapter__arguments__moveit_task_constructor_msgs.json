@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/perry/Jesus/Prueba6/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

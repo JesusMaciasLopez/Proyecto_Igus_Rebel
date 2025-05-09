@@ -1,0 +1,1 @@
+Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4

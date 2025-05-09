@@ -1,0 +1,495 @@
+[0.000000] (-) TimerEvent: {}
+[0.009100] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.009799] (irc_ros_description) JobQueued: {'identifier': 'irc_ros_description', 'dependencies': OrderedDict()}
+[0.017109] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.018148] (moveit) JobQueued: {'identifier': 'moveit', 'dependencies': OrderedDict([('irc_ros_description', '/home/perry/Jesus/Prueba6/install/irc_ros_description')])}
+[0.019117] (irc_ros_description) JobStarted: {'identifier': 'irc_ros_description'}
+[0.098864] (-) TimerEvent: {}
+[0.158248] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.199853] (-) TimerEvent: {}
+[0.260466] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.300230] (-) TimerEvent: {}
+[0.402062] (-) TimerEvent: {}
+[0.421653] (irc_ros_description) JobProgress: {'identifier': 'irc_ros_description', 'progress': 'cmake'}
+[0.448998] (irc_ros_description) JobProgress: {'identifier': 'irc_ros_description', 'progress': 'build'}
+[0.454588] (irc_ros_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/perry/Jesus/Prueba6/build/irc_ros_description', '--', '-j4', '-l4'], 'cwd': '/home/perry/Jesus/Prueba6/build/irc_ros_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/irc_ros_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.506070] (-) TimerEvent: {}
+[0.520011] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.536788] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/perry/Jesus/Prueba6/src/hello_moveit', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/hello_moveit'], 'cwd': '/home/perry/Jesus/Prueba6/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.606494] (-) TimerEvent: {}
+[0.710132] (-) TimerEvent: {}
+[0.811750] (-) TimerEvent: {}
+[0.914790] (-) TimerEvent: {}
+[1.017323] (-) TimerEvent: {}
+[1.122286] (-) TimerEvent: {}
+[1.224492] (-) TimerEvent: {}
+[1.327404] (-) TimerEvent: {}
+[1.429907] (-) TimerEvent: {}
+[1.531274] (-) TimerEvent: {}
+[1.634065] (-) TimerEvent: {}
+[1.740352] (-) TimerEvent: {}
+[1.841587] (-) TimerEvent: {}
+[1.943154] (-) TimerEvent: {}
+[2.044961] (-) TimerEvent: {}
+[2.146268] (-) TimerEvent: {}
+[2.251765] (-) TimerEvent: {}
+[2.354373] (-) TimerEvent: {}
+[2.455979] (-) TimerEvent: {}
+[2.557669] (-) TimerEvent: {}
+[2.663197] (-) TimerEvent: {}
+[2.765592] (-) TimerEvent: {}
+[2.867462] (-) TimerEvent: {}
+[2.969243] (-) TimerEvent: {}
+[3.072368] (-) TimerEvent: {}
+[3.174564] (-) TimerEvent: {}
+[3.276896] (-) TimerEvent: {}
+[3.378240] (-) TimerEvent: {}
+[3.479449] (-) TimerEvent: {}
+[3.581874] (-) TimerEvent: {}
+[3.684086] (-) TimerEvent: {}
+[3.786568] (-) TimerEvent: {}
+[3.888976] (-) TimerEvent: {}
+[3.991311] (-) TimerEvent: {}
+[4.093904] (-) TimerEvent: {}
+[4.195749] (-) TimerEvent: {}
+[4.298076] (-) TimerEvent: {}
+[4.399769] (-) TimerEvent: {}
+[4.501414] (-) TimerEvent: {}
+[4.604093] (-) TimerEvent: {}
+[4.707945] (-) TimerEvent: {}
+[4.812038] (-) TimerEvent: {}
+[4.914624] (-) TimerEvent: {}
+[5.017575] (-) TimerEvent: {}
+[5.119989] (-) TimerEvent: {}
+[5.228229] (-) TimerEvent: {}
+[5.331756] (-) TimerEvent: {}
+[5.435929] (-) TimerEvent: {}
+[5.539978] (-) TimerEvent: {}
+[5.642228] (-) TimerEvent: {}
+[5.747318] (-) TimerEvent: {}
+[5.849769] (-) TimerEvent: {}
+[5.953446] (-) TimerEvent: {}
+[6.055882] (-) TimerEvent: {}
+[6.157645] (-) TimerEvent: {}
+[6.259799] (-) TimerEvent: {}
+[6.364669] (-) TimerEvent: {}
+[6.466878] (-) TimerEvent: {}
+[6.569231] (-) TimerEvent: {}
+[6.671126] (-) TimerEvent: {}
+[6.776620] (-) TimerEvent: {}
+[6.881574] (-) TimerEvent: {}
+[6.986583] (-) TimerEvent: {}
+[7.096993] (-) TimerEvent: {}
+[7.156885] (hello_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.162158] (hello_moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.163542] (hello_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[7.183758] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[7.198619] (-) TimerEvent: {}
+[7.200395] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.202031] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.210113] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.211368] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.213167] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.214401] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[7.215585] (hello_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[7.216942] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.218133] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.219132] (irc_ros_description) CommandEnded: {'returncode': 0}
+[7.235986] (irc_ros_description) JobProgress: {'identifier': 'irc_ros_description', 'progress': 'install'}
+[7.299157] (-) TimerEvent: {}
+[7.337239] (irc_ros_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/perry/Jesus/Prueba6/build/irc_ros_description'], 'cwd': '/home/perry/Jesus/Prueba6/build/irc_ros_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/irc_ros_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[7.413315] (-) TimerEvent: {}
+[7.467910] (irc_ros_description) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[7.482358] (irc_ros_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.502850] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/body.dae\n'}
+[7.514050] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/bodyColl.dae\n'}
+[7.516497] (-) TimerEvent: {}
+[7.518239] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/wheel.dae\n'}
+[7.532417] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/wheelColl.dae\n'}
+[7.535736] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/gripper_schmalz_ecbpmi/Joint0.dae\n'}
+[7.550846] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/gripper_schmalz_ecbpmi/Joint0Coll.dae\n'}
+[7.561647] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint0.dae\n'}
+[7.570120] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint0Coll.dae\n'}
+[7.573154] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint1.dae\n'}
+[7.579337] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint1Coll.dae\n'}
+[7.584647] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint2.dae\n'}
+[7.592953] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint2Coll.dae\n'}
+[7.613453] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint3.dae\n'}
+[7.616875] (-) TimerEvent: {}
+[7.624222] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint3Coll.dae\n'}
+[7.631949] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint4.dae\n'}
+[7.633818] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint4Coll.dae\n'}
+[7.646741] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint0.dae\n'}
+[7.648995] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint0Coll.dae\n'}
+[7.660851] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint1.dae\n'}
+[7.670906] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint1Coll.dae\n'}
+[7.678891] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint2.dae\n'}
+[7.682577] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint2Coll.dae\n'}
+[7.700870] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint3.dae\n'}
+[7.702073] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint3Coll.dae\n'}
+[7.702603] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint4.dae\n'}
+[7.703095] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint4Coll.dae\n'}
+[7.706932] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint0.dae\n'}
+[7.708628] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint0Coll.dae\n'}
+[7.711257] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint1.dae\n'}
+[7.728738] (-) TimerEvent: {}
+[7.729770] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint1Coll.dae\n'}
+[7.730780] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint2.dae\n'}
+[7.736749] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint2Coll.dae\n'}
+[7.739066] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint3.dae\n'}
+[7.751445] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint3Coll.dae\n'}
+[7.765364] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint4.dae\n'}
+[7.767453] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint4Coll.dae\n'}
+[7.779270] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint5.dae\n'}
+[7.782331] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint5Coll.dae\n'}
+[7.789222] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint6.dae\n'}
+[7.792757] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint6Coll.dae\n'}
+[7.794113] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint0.dae\n'}
+[7.802659] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint0Coll.dae\n'}
+[7.805262] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint1.dae\n'}
+[7.810520] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint1Coll.dae\n'}
+[7.812153] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint2.dae\n'}
+[7.816340] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint2Coll.dae\n'}
+[7.819011] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint3.dae\n'}
+[7.825780] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint3Coll.dae\n'}
+[7.832553] (-) TimerEvent: {}
+[7.851085] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint4.dae\n'}
+[7.852816] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint4Coll.dae\n'}
+[7.853811] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint5.dae\n'}
+[7.859954] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint5Coll.dae\n'}
+[7.869489] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint6.dae\n'}
+[7.871009] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint6Coll.dae\n'}
+[7.880766] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint0.dae\n'}
+[7.884616] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint0Coll.dae\n'}
+[7.885401] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint1.dae\n'}
+[7.905618] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint1Coll.dae\n'}
+[7.907324] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint2.dae\n'}
+[7.916933] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint2Coll.dae\n'}
+[7.919056] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint3.dae\n'}
+[7.920580] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint3Coll.dae\n'}
+[7.921666] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint4.dae\n'}
+[7.922544] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint4Coll.dae\n'}
+[7.923667] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint5.dae\n'}
+[7.931306] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint5Coll.dae\n'}
+[7.935934] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/launch/visualize.launch.py\n'}
+[7.936821] (-) TimerEvent: {}
+[7.954146] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/cpr_platform_medium.urdf.xacro\n'}
+[7.960774] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/ext_dio_gripper.description.xacro\n'}
+[7.963086] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/ext_dio_gripper.ros2_control.xacro\n'}
+[7.966798] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/grippers.macro.xacro\n'}
+[7.967442] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/schmalz_ecbpmi.description.xacro\n'}
+[7.974087] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_rebel_4dof.urdf.xacro\n'}
+[7.981840] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_rebel_6dof.urdf.xacro\n'}
+[7.983529] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_robolink_rl_dp_5.urdf.xacro\n'}
+[7.984517] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/modules/din_rail.ros2_control.xacro\n'}
+[7.990159] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/modules/rebel.ros2_control.xacro\n'}
+[7.990803] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.description.xacro\n'}
+[7.991688] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.macro.xacro\n'}
+[7.992575] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.ros2_control.xacro\n'}
+[7.993631] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/rebel_on_platform.urdf.xacro\n'}
+[7.995978] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof.macro.xacro\n'}
+[8.001950] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_00.description.xacro\n'}
+[8.009177] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_00.ros2_control.xacro\n'}
+[8.010144] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_01.description.xacro\n'}
+[8.011214] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_01.ros2_control.xacro\n'}
+[8.013879] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof.macro.xacro\n'}
+[8.017867] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_00.description.xacro\n'}
+[8.019007] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_00.ros2_control.xacro\n'}
+[8.023422] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_01.description.xacro\n'}
+[8.029005] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_01.ros2_control.xacro\n'}
+[8.030165] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_pre.description.xacro\n'}
+[8.031434] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_pre.ros2_control.xacro\n'}
+[8.036053] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.description.xacro\n'}
+[8.037482] (-) TimerEvent: {}
+[8.069497] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.macro.xacro\n'}
+[8.071577] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.ros2_control.xacro\n'}
+[8.081007] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/rviz/platform.rviz\n'}
+[8.092344] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/rviz/rebel.rviz\n'}
+[8.094447] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/package_run_dependencies/irc_ros_description\n'}
+[8.105395] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/parent_prefix_path/irc_ros_description\n'}
+[8.117620] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/ament_prefix_path.sh\n'}
+[8.121050] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/ament_prefix_path.dsv\n'}
+[8.134958] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/path.sh\n'}
+[8.145040] (-) TimerEvent: {}
+[8.148584] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/path.dsv\n'}
+[8.157802] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.bash\n'}
+[8.159957] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.sh\n'}
+[8.161338] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.zsh\n'}
+[8.162871] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.dsv\n'}
+[8.172704] (irc_ros_description) StdoutLine: {'line': b'-- Symlinking: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.dsv\n'}
+[8.223476] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/packages/irc_ros_description\n'}
+[8.225635] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/cmake/irc_ros_descriptionConfig.cmake\n'}
+[8.227443] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/cmake/irc_ros_descriptionConfig-version.cmake\n'}
+[8.238216] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.xml\n'}
+[8.252198] (-) TimerEvent: {}
+[8.295333] (irc_ros_description) CommandEnded: {'returncode': 0}
+[8.352737] (-) TimerEvent: {}
+[8.457956] (-) TimerEvent: {}
+[8.561207] (-) TimerEvent: {}
+[8.633660] (irc_ros_description) JobEnded: {'identifier': 'irc_ros_description', 'rc': 0}
+[8.643368] (moveit) JobStarted: {'identifier': 'moveit'}
+[8.662383] (-) TimerEvent: {}
+[8.764016] (-) TimerEvent: {}
+[8.812460] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'cmake'}
+[8.842969] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'build'}
+[8.847995] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/perry/Jesus/Prueba6/build/moveit', '--', '-j4', '-l4'], 'cwd': '/home/perry/Jesus/Prueba6/build/moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[8.886816] (-) TimerEvent: {}
+[8.991165] (-) TimerEvent: {}
+[9.093737] (-) TimerEvent: {}
+[9.196586] (-) TimerEvent: {}
+[9.301204] (-) TimerEvent: {}
+[9.339473] (moveit) CommandEnded: {'returncode': 0}
+[9.365784] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'install'}
+[9.366279] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/perry/Jesus/Prueba6/build/moveit'], 'cwd': '/home/perry/Jesus/Prueba6/build/moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[9.401663] (-) TimerEvent: {}
+[9.482748] (moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[9.488940] (moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.492781] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit\n'}
+[9.497334] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit\n'}
+[9.498433] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.sh\n'}
+[9.509504] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.dsv\n'}
+[9.520236] (-) TimerEvent: {}
+[9.525800] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.sh\n'}
+[9.527151] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.dsv\n'}
+[9.538263] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.bash\n'}
+[9.544628] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.sh\n'}
+[9.545662] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.zsh\n'}
+[9.546612] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.dsv\n'}
+[9.547558] (moveit) StdoutLine: {'line': b'-- Symlinking: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.dsv\n'}
+[9.605148] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/packages/moveit\n'}
+[9.606485] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig.cmake\n'}
+[9.607572] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig-version.cmake\n'}
+[9.615988] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.xml\n'}
+[9.621777] (-) TimerEvent: {}
+[9.623456] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/demo.launch.py\n'}
+[9.638877] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/move_group.launch.py\n'}
+[9.642386] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/moveit_rviz.launch.py\n'}
+[9.647980] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/rsp.launch.py\n'}
+[9.653227] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/setup_assistant.launch.py\n'}
+[9.661072] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/spawn_controllers.launch.py\n'}
+[9.661851] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py\n'}
+[9.662479] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/warehouse_db.launch.py\n'}
+[9.663295] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.ros2_control.xacro\n'}
+[9.672396] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.srdf\n'}
+[9.673981] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.urdf.xacro\n'}
+[9.675847] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/initial_positions.yaml\n'}
+[9.676682] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/joint_limits.yaml\n'}
+[9.677488] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/kinematics.yaml\n'}
+[9.678419] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/moveit.rviz\n'}
+[9.679214] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/moveit_controllers.yaml\n'}
+[9.682503] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml\n'}
+[9.683072] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/ros2_controllers.yaml\n'}
+[9.692035] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/.setup_assistant\n'}
+[9.692866] (moveit) CommandEnded: {'returncode': 0}
+[9.733787] (-) TimerEvent: {}
+[9.848575] (-) TimerEvent: {}
+[9.951200] (moveit) JobEnded: {'identifier': 'moveit', 'rc': 0}
+[9.969252] (-) TimerEvent: {}
+[10.071294] (-) TimerEvent: {}
+[10.110771] (hello_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.171582] (-) TimerEvent: {}
+[10.273530] (-) TimerEvent: {}
+[10.379957] (-) TimerEvent: {}
+[10.482270] (-) TimerEvent: {}
+[10.583988] (-) TimerEvent: {}
+[10.670975] (hello_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[10.684631] (-) TimerEvent: {}
+[10.786840] (-) TimerEvent: {}
+[10.892196] (-) TimerEvent: {}
+[10.980440] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[10.993061] (-) TimerEvent: {}
+[11.102454] (-) TimerEvent: {}
+[11.205891] (-) TimerEvent: {}
+[11.309651] (-) TimerEvent: {}
+[11.416205] (-) TimerEvent: {}
+[11.521701] (-) TimerEvent: {}
+[11.623948] (-) TimerEvent: {}
+[11.725739] (-) TimerEvent: {}
+[11.730295] (hello_moveit) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[11.826056] (-) TimerEvent: {}
+[11.927860] (-) TimerEvent: {}
+[12.029655] (-) TimerEvent: {}
+[12.094622] (hello_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.132133] (-) TimerEvent: {}
+[12.238094] (-) TimerEvent: {}
+[12.340256] (-) TimerEvent: {}
+[12.444990] (-) TimerEvent: {}
+[12.551049] (-) TimerEvent: {}
+[12.653471] (-) TimerEvent: {}
+[12.756176] (-) TimerEvent: {}
+[12.859593] (-) TimerEvent: {}
+[12.961397] (-) TimerEvent: {}
+[13.066829] (-) TimerEvent: {}
+[13.169709] (-) TimerEvent: {}
+[13.272178] (-) TimerEvent: {}
+[13.374656] (-) TimerEvent: {}
+[13.477840] (-) TimerEvent: {}
+[13.579981] (-) TimerEvent: {}
+[13.615923] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[13.683910] (-) TimerEvent: {}
+[13.786324] (-) TimerEvent: {}
+[13.888100] (-) TimerEvent: {}
+[13.897997] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[13.988405] (-) TimerEvent: {}
+[14.090019] (-) TimerEvent: {}
+[14.135891] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[14.190850] (-) TimerEvent: {}
+[14.293039] (-) TimerEvent: {}
+[14.395490] (-) TimerEvent: {}
+[14.498304] (-) TimerEvent: {}
+[14.500555] (hello_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.598693] (-) TimerEvent: {}
+[14.699845] (-) TimerEvent: {}
+[14.804082] (-) TimerEvent: {}
+[14.907817] (-) TimerEvent: {}
+[15.011960] (-) TimerEvent: {}
+[15.119328] (-) TimerEvent: {}
+[15.222221] (-) TimerEvent: {}
+[15.338636] (-) TimerEvent: {}
+[15.441420] (hello_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.443059] (-) TimerEvent: {}
+[15.450971] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/perry/Jesus/Prueba6/src/hello_moveit/include>\n'}
+[15.452682] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.457044] (hello_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.480596] (hello_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.484888] (hello_moveit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.488211] (hello_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.495455] (hello_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.543251] (-) TimerEvent: {}
+[15.646697] (-) TimerEvent: {}
+[15.750894] (-) TimerEvent: {}
+[15.855149] (-) TimerEvent: {}
+[15.920517] (hello_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[15.955985] (-) TimerEvent: {}
+[16.013616] (hello_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/perry/Jesus/Prueba6/build/hello_moveit\n'}
+[16.056370] (-) TimerEvent: {}
+[16.103784] (hello_moveit) CommandEnded: {'returncode': 0}
+[16.128322] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[16.128639] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/perry/Jesus/Prueba6/build/hello_moveit', '--', '-j4', '-l4'], 'cwd': '/home/perry/Jesus/Prueba6/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[16.157158] (-) TimerEvent: {}
+[16.258889] (-) TimerEvent: {}
+[16.363941] (-) TimerEvent: {}
+[16.465358] (-) TimerEvent: {}
+[16.543296] (hello_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_moveit\x1b[0m\n'}
+[16.566348] (-) TimerEvent: {}
+[16.668283] (-) TimerEvent: {}
+[16.692539] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[16.768811] (-) TimerEvent: {}
+[16.827241] (hello_moveit) CommandEnded: {'returncode': 0}
+[16.830003] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[16.830303] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/perry/Jesus/Prueba6/build/hello_moveit'], 'cwd': '/home/perry/Jesus/Prueba6/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[16.869438] (-) TimerEvent: {}
+[16.932253] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[16.938890] (hello_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.946808] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[16.949879] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[16.958337] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[16.960279] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[16.962643] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[16.963451] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[16.967345] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[16.969071] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[16.975926] (-) TimerEvent: {}
+[16.981606] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[16.986348] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[16.988798] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[16.990496] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[17.076699] (-) TimerEvent: {}
+[17.083899] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[17.087426] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[17.097362] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[17.100019] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[17.149309] (hello_moveit) CommandEnded: {'returncode': 0}
+[17.180012] (-) TimerEvent: {}
+[17.281740] (-) TimerEvent: {}
+[17.387369] (-) TimerEvent: {}
+[17.395369] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[17.487736] (-) TimerEvent: {}
+[17.524860] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/perry/Jesus/Prueba6/build/my_package/build', 'install', '--record', '/home/perry/Jesus/Prueba6/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/perry/Jesus/Prueba6/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'perry', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/perry', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/perry/Jesus/Prueba6/src', 'TERM_PROGRAM_VERSION': '1.99.3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1600', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'perry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'perry', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GZE032', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bce5cff3f2.sock', 'GNOME_TERMINAL_SERVICE': ':1.96', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/perry/Jesus/Prueba6/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit'}, 'shell': False}
+[17.588298] (-) TimerEvent: {}
+[17.690470] (-) TimerEvent: {}
+[17.791992] (-) TimerEvent: {}
+[17.893038] (-) TimerEvent: {}
+[17.999497] (-) TimerEvent: {}
+[18.101067] (-) TimerEvent: {}
+[18.205165] (-) TimerEvent: {}
+[18.308076] (-) TimerEvent: {}
+[18.409788] (-) TimerEvent: {}
+[18.511836] (-) TimerEvent: {}
+[18.613726] (-) TimerEvent: {}
+[18.715383] (-) TimerEvent: {}
+[18.817100] (-) TimerEvent: {}
+[18.919376] (-) TimerEvent: {}
+[19.021570] (-) TimerEvent: {}
+[19.124068] (-) TimerEvent: {}
+[19.226704] (-) TimerEvent: {}
+[19.329377] (-) TimerEvent: {}
+[19.431924] (-) TimerEvent: {}
+[19.534447] (-) TimerEvent: {}
+[19.637501] (-) TimerEvent: {}
+[19.740411] (-) TimerEvent: {}
+[19.843149] (-) TimerEvent: {}
+[19.946520] (-) TimerEvent: {}
+[20.050244] (-) TimerEvent: {}
+[20.154109] (-) TimerEvent: {}
+[20.257325] (-) TimerEvent: {}
+[20.364117] (-) TimerEvent: {}
+[20.465804] (-) TimerEvent: {}
+[20.567656] (-) TimerEvent: {}
+[20.669607] (-) TimerEvent: {}
+[20.772533] (-) TimerEvent: {}
+[20.875129] (-) TimerEvent: {}
+[20.977643] (-) TimerEvent: {}
+[21.081061] (-) TimerEvent: {}
+[21.182568] (-) TimerEvent: {}
+[21.284187] (-) TimerEvent: {}
+[21.386213] (-) TimerEvent: {}
+[21.488585] (-) TimerEvent: {}
+[21.590080] (-) TimerEvent: {}
+[21.691944] (-) TimerEvent: {}
+[21.793375] (-) TimerEvent: {}
+[21.894465] (-) TimerEvent: {}
+[21.997539] (-) TimerEvent: {}
+[22.100010] (-) TimerEvent: {}
+[22.201951] (-) TimerEvent: {}
+[22.303580] (-) TimerEvent: {}
+[22.405200] (-) TimerEvent: {}
+[22.507438] (-) TimerEvent: {}
+[22.609697] (-) TimerEvent: {}
+[22.712059] (-) TimerEvent: {}
+[22.814764] (-) TimerEvent: {}
+[22.916852] (-) TimerEvent: {}
+[23.019133] (-) TimerEvent: {}
+[23.121437] (-) TimerEvent: {}
+[23.183210] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[23.194922] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[23.200190] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[23.204277] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[23.206405] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[23.207799] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[23.221660] (-) TimerEvent: {}
+[23.223179] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[23.234031] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[23.235157] (my_package) StdoutLine: {'line': b'running build\n'}
+[23.235965] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[23.240541] (my_package) StdoutLine: {'line': b'running install\n'}
+[23.242851] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[23.265190] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[23.267517] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.293851] (my_package) StdoutLine: {'line': b"removing '/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[23.297745] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[23.313842] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[23.322005] (-) TimerEvent: {}
+[23.423109] (-) TimerEvent: {}
+[23.524265] (my_package) StdoutLine: {'line': b'Installing nodo_cinematica script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[23.526566] (-) TimerEvent: {}
+[23.537011] (my_package) StdoutLine: {'line': b'Installing nodo_cinematica_inv script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[23.545736] (my_package) StdoutLine: {'line': b'Installing nodo_mando script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[23.555308] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/perry/Jesus/Prueba6/build/my_package/install.log'\n"}
+[23.626828] (-) TimerEvent: {}
+[23.728257] (-) TimerEvent: {}
+[23.829563] (-) TimerEvent: {}
+[23.840750] (my_package) CommandEnded: {'returncode': 0}
+[23.930021] (-) TimerEvent: {}
+[23.962973] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[23.978015] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/Property.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/Solution.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SolutionInfo.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/StageDescription.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/StageStatistics.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SubSolution.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SubTrajectory.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TaskDescription.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TaskStatistics.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TrajectoryExecutionInfo.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:srv/GetSolution.idl
+/home/perry/Jesus/Prueba6/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:action/ExecuteTaskSolution.idl

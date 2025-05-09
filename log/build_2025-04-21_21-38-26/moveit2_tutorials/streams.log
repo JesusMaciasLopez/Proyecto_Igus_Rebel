@@ -1,0 +1,60 @@
+[0.100s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit2_tutorials -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit2_tutorials
+[1.437s] -- The C compiler identification is GNU 11.4.0
+[2.312s] -- The CXX compiler identification is GNU 11.4.0
+[2.372s] -- Detecting C compiler ABI info
+[2.837s] -- Detecting C compiler ABI info - done
+[2.880s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.883s] -- Detecting C compile features
+[2.889s] -- Detecting C compile features - done
+[2.910s] -- Detecting CXX compiler ABI info
+[3.354s] -- Detecting CXX compiler ABI info - done
+[3.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.390s] -- Detecting CXX compile features
+[3.392s] -- Detecting CXX compile features - done
+[3.442s] -- Found moveit_common: 2.5.8 (/opt/ros/humble/share/moveit_common/cmake)
+[3.514s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.527s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.439s] [0mmoveit2_tutorials: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[8.285s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[8.340s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[9.117s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.223s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.369s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.287s] -- Found moveit_core: 2.5.8 (/opt/ros/humble/share/moveit_core/cmake)
+[11.608s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[12.220s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[12.915s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.972s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.961s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.300s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.105s] -- Found Threads: TRUE  
+[15.631s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[15.681s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[15.975s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[16.960s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[17.464s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[20.033s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[20.033s]   By not providing "Findmoveit_task_constructor_core.cmake" in
+[20.034s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[20.034s]   configuration file provided by "moveit_task_constructor_core", but CMake
+[20.035s]   did not find one.
+[20.036s] 
+[20.036s]   Could not find a package configuration file provided by
+[20.037s]   "moveit_task_constructor_core" with any of the following names:
+[20.038s] 
+[20.039s]     moveit_task_constructor_coreConfig.cmake
+[20.041s]     moveit_task_constructor_core-config.cmake
+[20.044s] 
+[20.047s]   Add the installation prefix of "moveit_task_constructor_core" to
+[20.048s]   CMAKE_PREFIX_PATH or set "moveit_task_constructor_core_DIR" to a directory
+[20.050s]   containing one of the above files.  If "moveit_task_constructor_core"
+[20.051s]   provides a separate development package or SDK, be sure it has been
+[20.052s]   installed.
+[20.052s] 
+[20.053s] [0m
+[20.054s] -- Configuring incomplete, errors occurred!
+[20.055s] See also "/home/perry/Jesus/Prueba6/build/moveit2_tutorials/CMakeFiles/CMakeOutput.log".
+[20.099s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit2_tutorials' returned '1': AMENT_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit2_tutorials -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit2_tutorials

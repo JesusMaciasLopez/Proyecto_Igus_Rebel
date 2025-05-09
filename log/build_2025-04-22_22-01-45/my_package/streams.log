@@ -1,0 +1,40 @@
+[19.045s] Invoking command in '/home/perry/Jesus/Prueba6/build/my_package': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/perry/Jesus/Prueba6/build/my_package/build
+[24.275s] running develop
+[29.449s] Removing /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[29.745s] Invoked command in '/home/perry/Jesus/Prueba6/build/my_package' returned '0': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/perry/Jesus/Prueba6/build/my_package/build
+[29.749s] Invoking command in '/home/perry/Jesus/Prueba6/src/my_package': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/perry/Jesus/Prueba6/build/my_package/build install --record /home/perry/Jesus/Prueba6/build/my_package/install.log --single-version-externally-managed install_data --force
+[34.780s] running egg_info
+[34.787s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[34.789s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[34.791s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[34.794s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[34.797s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[34.821s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[34.833s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[34.836s] running build
+[34.837s] running build_py
+[34.845s] running install
+[34.848s] running install_lib
+[34.857s] copying /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package/nodo_cinematica.py -> /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package
+[34.862s] copying /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package/nodo_pose_moveit.py -> /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package
+[34.869s] copying /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package/__init__.py -> /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package
+[34.870s] copying /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package/nodo_mando.py -> /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package
+[34.873s] copying /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package/nodo_mensaje_recibido.py -> /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package
+[34.878s] copying /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package/nodo_mensaje_vel.py -> /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package
+[34.896s] byte-compiling /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package/nodo_cinematica.py to nodo_cinematica.cpython-310.pyc
+[34.925s] byte-compiling /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package/nodo_pose_moveit.py to nodo_pose_moveit.cpython-310.pyc
+[34.946s] byte-compiling /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[34.952s] byte-compiling /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package/nodo_mando.py to nodo_mando.cpython-310.pyc
+[34.960s] byte-compiling /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package/nodo_mensaje_recibido.py to nodo_mensaje_recibido.cpython-310.pyc
+[34.963s] byte-compiling /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package/nodo_mensaje_vel.py to nodo_mensaje_vel.cpython-310.pyc
+[34.982s] running install_data
+[34.983s] copying resource/my_package -> /home/perry/Jesus/Prueba6/install/my_package/share/ament_index/resource_index/packages
+[34.997s] copying package.xml -> /home/perry/Jesus/Prueba6/install/my_package/share/my_package
+[34.999s] running install_egg_info
+[35.016s] Copying ../../build/my_package/my_package.egg-info to /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[35.049s] running install_scripts
+[35.342s] Installing nodo_cinematica script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[35.346s] Installing nodo_cinematica_inv script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[35.348s] Installing nodo_mando script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[35.353s] writing list of installed files to '/home/perry/Jesus/Prueba6/build/my_package/install.log'
+[35.647s] Invoked command in '/home/perry/Jesus/Prueba6/src/my_package' returned '0': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/perry/Jesus/Prueba6/build/my_package/build install --record /home/perry/Jesus/Prueba6/build/my_package/install.log --single-version-externally-managed install_data --force

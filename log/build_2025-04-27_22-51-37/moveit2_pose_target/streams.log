@@ -1,0 +1,26 @@
+[0.173s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4
+[1.325s] [35m[1mConsolidate compiler generated dependencies of target move_to_pose_node[0m
+[2.292s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_pose_node.dir/src/move_to_pose_node.cpp.o[0m
+[93.322s] [01m[K/home/perry/Jesus/Prueba6/src/moveit2_pose_target/src/move_to_pose_node.cpp:[m[K In constructor ‘[01m[KMoveToPoseNode::MoveToPoseNode()[m[K’:
+[93.328s] [01m[K/home/perry/Jesus/Prueba6/src/moveit2_pose_target/src/move_to_pose_node.cpp:11:84:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+[93.330s]    11 |     move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>([01;31m[Kshared_from_this[m[K(), "arm");
+[93.332s]       |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[93.334s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[93.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[93.338s]                  from [01m[K/home/perry/Jesus/Prueba6/src/moveit2_pose_target/src/move_to_pose_node.cpp:1[m[K:
+[93.340s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = MoveToPoseNode][m[K’
+[93.342s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[93.343s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[93.343s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = MoveToPoseNode][m[K’
+[93.344s]   807 |       [01;36m[Kshared_from_this[m[K()
+[93.346s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[93.347s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+[93.348s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[93.350s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[93.352s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+[93.355s]   807 |       [01;36m[Kshared_from_this[m[K()
+[93.356s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[154.751s] gmake[2]: *** [CMakeFiles/move_to_pose_node.dir/build.make:76: CMakeFiles/move_to_pose_node.dir/src/move_to_pose_node.cpp.o] Error 1
+[154.756s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_to_pose_node.dir/all] Error 2
+[154.758s] gmake: *** [Makefile:146: all] Error 2
+[155.177s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit2_pose_target' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit2_pose_target -- -j4 -l4

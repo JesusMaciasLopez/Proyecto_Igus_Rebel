@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.001594] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.001998] (-) JobUnselected: {'identifier': 'irc_ros_description'}
+[0.002304] (-) JobUnselected: {'identifier': 'moveit2_pose_target'}
+[0.002657] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002923] (-) JobUnselected: {'identifier': 'robot'}
+[0.003116] (-) EventReactorShutdown: {}

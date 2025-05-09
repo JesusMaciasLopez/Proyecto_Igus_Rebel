@@ -1,0 +1,23 @@
+[18.707s] Invoking command in '/home/perry/Jesus/Prueba6/src/my_package': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/perry/Jesus/Prueba6/build/my_package/build install --record /home/perry/Jesus/Prueba6/build/my_package/install.log --single-version-externally-managed install_data
+[24.671s] running egg_info
+[24.681s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[24.684s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[24.697s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[24.699s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[24.700s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[24.718s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[24.728s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[24.731s] running build
+[24.733s] running build_py
+[24.740s] running install
+[24.748s] running install_lib
+[24.763s] running install_data
+[24.765s] running install_egg_info
+[24.789s] removing '/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[24.795s] Copying ../../build/my_package/my_package.egg-info to /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[24.813s] running install_scripts
+[25.049s] Installing nodo_cinematica script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[25.052s] Installing nodo_cinematica_inv script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[25.066s] Installing nodo_mando script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[25.077s] writing list of installed files to '/home/perry/Jesus/Prueba6/build/my_package/install.log'
+[25.369s] Invoked command in '/home/perry/Jesus/Prueba6/src/my_package' returned '0': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/perry/Jesus/Prueba6/build/my_package/build install --record /home/perry/Jesus/Prueba6/build/my_package/install.log --single-version-externally-managed install_data

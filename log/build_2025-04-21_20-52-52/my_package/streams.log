@@ -1,0 +1,21 @@
+[17.117s] Invoking command in '/home/perry/Jesus/Prueba6/build/my_package': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/perry/Jesus/Prueba6/build/my_package/build --no-deps symlink_data --force
+[22.446s] running develop
+[26.366s] running egg_info
+[26.369s] writing my_package.egg-info/PKG-INFO
+[26.373s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[26.379s] writing entry points to my_package.egg-info/entry_points.txt
+[26.382s] writing requirements to my_package.egg-info/requires.txt
+[26.383s] writing top-level names to my_package.egg-info/top_level.txt
+[26.408s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[26.420s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[26.429s] running build_ext
+[26.430s] Creating /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[26.436s] Installing nodo_cinematica script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[26.437s] Installing nodo_cinematica_inv script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[26.439s] Installing nodo_mando script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package
+[26.441s] 
+[26.442s] Installed /home/perry/Jesus/Prueba6/build/my_package
+[26.443s] running symlink_data
+[26.444s] symbolically linking /home/perry/Jesus/Prueba6/build/my_package/resource/my_package -> /home/perry/Jesus/Prueba6/install/my_package/share/ament_index/resource_index/packages
+[26.445s] symbolically linking /home/perry/Jesus/Prueba6/build/my_package/package.xml -> /home/perry/Jesus/Prueba6/install/my_package/share/my_package
+[26.699s] Invoked command in '/home/perry/Jesus/Prueba6/build/my_package' returned '0': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/perry/Jesus/Prueba6/build/my_package/build --no-deps symlink_data --force

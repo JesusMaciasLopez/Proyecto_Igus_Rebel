@@ -1,0 +1,17 @@
+/home/perry/Jesus/Prueba6/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+/home/perry/Jesus/Prueba6/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/environment/path.sh
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/environment/path.dsv
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/local_setup.bash
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/local_setup.sh
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/local_setup.zsh
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/local_setup.dsv
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/package.dsv
+/home/perry/Jesus/Prueba6/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/package.xml
+/home/perry/Jesus/Prueba6/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

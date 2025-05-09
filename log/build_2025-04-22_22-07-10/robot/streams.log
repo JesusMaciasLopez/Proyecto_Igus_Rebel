@@ -1,0 +1,38 @@
+[0.060s] Invoking command in '/home/perry/Jesus/Prueba6/build/robot': AMENT_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/robot -- -j4 -l4
+[0.342s] Invoked command in '/home/perry/Jesus/Prueba6/build/robot' returned '0': AMENT_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/robot -- -j4 -l4
+[0.370s] Invoking command in '/home/perry/Jesus/Prueba6/build/robot': AMENT_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/robot
+[0.433s] -- Install configuration: "Debug"
+[0.439s] -- Execute custom install script
+[0.447s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[0.455s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[0.464s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/ament_prefix_path.sh
+[0.471s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/ament_prefix_path.dsv
+[0.481s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/path.sh
+[0.491s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/path.dsv
+[0.498s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.bash
+[0.502s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.sh
+[0.507s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.zsh
+[0.516s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.dsv
+[0.518s] -- Symlinking: /home/perry/Jesus/Prueba6/install/robot/share/robot/package.dsv
+[0.610s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/ament_index/resource_index/packages/robot
+[0.623s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/cmake/robotConfig.cmake
+[0.628s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/cmake/robotConfig-version.cmake
+[0.633s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/package.xml
+[0.642s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/demo.launch.py
+[0.649s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/move_group.launch.py
+[0.655s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/moveit_rviz.launch.py
+[0.667s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/rsp.launch.py
+[0.668s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/setup_assistant.launch.py
+[0.673s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/spawn_controllers.launch.py
+[0.679s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/static_virtual_joint_tfs.launch.py
+[0.692s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/warehouse_db.launch.py
+[0.704s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/igus_rebel_6dof.srdf
+[0.712s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/joint_limits.yaml
+[0.718s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/kinematics.yaml
+[0.723s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/moveit.rviz
+[0.731s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/moveit_controllers.yaml
+[0.738s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/pilz_cartesian_limits.yaml
+[0.742s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/ros2_controllers.yaml
+[0.744s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/sensors_3d.yaml
+[0.747s] -- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/robot/share/robot/.setup_assistant
+[0.768s] Invoked command in '/home/perry/Jesus/Prueba6/build/robot' returned '0': AMENT_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/robot

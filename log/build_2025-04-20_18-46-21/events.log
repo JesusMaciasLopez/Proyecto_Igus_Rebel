@@ -1,0 +1,1923 @@
+[0.000000] (-) TimerEvent: {}
+[0.003399] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.004475] (irc_ros_description) JobQueued: {'identifier': 'irc_ros_description', 'dependencies': OrderedDict()}
+[0.005171] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.008357] (moveit) JobQueued: {'identifier': 'moveit', 'dependencies': OrderedDict([('irc_ros_description', '/home/perry/Jesus/Prueba6/install/irc_ros_description')])}
+[0.013981] (irc_ros_description) JobStarted: {'identifier': 'irc_ros_description'}
+[0.098497] (-) TimerEvent: {}
+[0.155000] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.199058] (-) TimerEvent: {}
+[0.245479] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.301666] (-) TimerEvent: {}
+[0.387741] (irc_ros_description) JobProgress: {'identifier': 'irc_ros_description', 'progress': 'cmake'}
+[0.402185] (-) TimerEvent: {}
+[0.407782] (irc_ros_description) JobProgress: {'identifier': 'irc_ros_description', 'progress': 'build'}
+[0.414646] (irc_ros_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/perry/Jesus/Prueba6/build/irc_ros_description', '--', '-j4', '-l4'], 'cwd': '/home/perry/Jesus/Prueba6/build/irc_ros_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/irc_ros_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.470851] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.508901] (-) TimerEvent: {}
+[0.515125] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[0.518740] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/perry/Jesus/Prueba6/build/hello_moveit', '--', '-j4', '-l4'], 'cwd': '/home/perry/Jesus/Prueba6/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.610957] (-) TimerEvent: {}
+[0.716171] (-) TimerEvent: {}
+[0.819927] (-) TimerEvent: {}
+[0.927693] (-) TimerEvent: {}
+[1.030849] (-) TimerEvent: {}
+[1.152032] (-) TimerEvent: {}
+[1.255870] (-) TimerEvent: {}
+[1.360467] (-) TimerEvent: {}
+[1.463943] (-) TimerEvent: {}
+[1.566324] (-) TimerEvent: {}
+[1.591959] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[1.666459] (-) TimerEvent: {}
+[1.767784] (-) TimerEvent: {}
+[1.870195] (-) TimerEvent: {}
+[1.972049] (-) TimerEvent: {}
+[2.073941] (-) TimerEvent: {}
+[2.175481] (-) TimerEvent: {}
+[2.280371] (-) TimerEvent: {}
+[2.395800] (-) TimerEvent: {}
+[2.497467] (-) TimerEvent: {}
+[2.599759] (-) TimerEvent: {}
+[2.701376] (-) TimerEvent: {}
+[2.802794] (-) TimerEvent: {}
+[2.904176] (-) TimerEvent: {}
+[3.006808] (-) TimerEvent: {}
+[3.118021] (-) TimerEvent: {}
+[3.220467] (-) TimerEvent: {}
+[3.323200] (-) TimerEvent: {}
+[3.424995] (-) TimerEvent: {}
+[3.526604] (-) TimerEvent: {}
+[3.634574] (-) TimerEvent: {}
+[3.736554] (-) TimerEvent: {}
+[3.839892] (-) TimerEvent: {}
+[3.941804] (-) TimerEvent: {}
+[4.043841] (-) TimerEvent: {}
+[4.146675] (-) TimerEvent: {}
+[4.249403] (-) TimerEvent: {}
+[4.350800] (-) TimerEvent: {}
+[4.452626] (-) TimerEvent: {}
+[4.555465] (-) TimerEvent: {}
+[4.660925] (-) TimerEvent: {}
+[4.762444] (-) TimerEvent: {}
+[4.864361] (-) TimerEvent: {}
+[4.967247] (-) TimerEvent: {}
+[5.070638] (-) TimerEvent: {}
+[5.179077] (-) TimerEvent: {}
+[5.281129] (-) TimerEvent: {}
+[5.383420] (-) TimerEvent: {}
+[5.490891] (-) TimerEvent: {}
+[5.593151] (-) TimerEvent: {}
+[5.694961] (-) TimerEvent: {}
+[5.796846] (-) TimerEvent: {}
+[5.898913] (-) TimerEvent: {}
+[6.001588] (-) TimerEvent: {}
+[6.107652] (-) TimerEvent: {}
+[6.209502] (-) TimerEvent: {}
+[6.312384] (-) TimerEvent: {}
+[6.415291] (-) TimerEvent: {}
+[6.520414] (-) TimerEvent: {}
+[6.624210] (-) TimerEvent: {}
+[6.726972] (-) TimerEvent: {}
+[6.828718] (-) TimerEvent: {}
+[6.930206] (-) TimerEvent: {}
+[7.032257] (-) TimerEvent: {}
+[7.135900] (-) TimerEvent: {}
+[7.237658] (-) TimerEvent: {}
+[7.340077] (-) TimerEvent: {}
+[7.443419] (-) TimerEvent: {}
+[7.548384] (-) TimerEvent: {}
+[7.656293] (-) TimerEvent: {}
+[7.760399] (-) TimerEvent: {}
+[7.863662] (-) TimerEvent: {}
+[7.911759] (irc_ros_description) CommandEnded: {'returncode': 0}
+[7.923239] (irc_ros_description) JobProgress: {'identifier': 'irc_ros_description', 'progress': 'install'}
+[7.968096] (-) TimerEvent: {}
+[8.055793] (irc_ros_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/perry/Jesus/Prueba6/build/irc_ros_description'], 'cwd': '/home/perry/Jesus/Prueba6/build/irc_ros_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/irc_ros_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[8.088175] (-) TimerEvent: {}
+[8.192727] (-) TimerEvent: {}
+[8.268421] (irc_ros_description) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[8.287810] (irc_ros_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.293493] (-) TimerEvent: {}
+[8.315889] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/body.dae\n'}
+[8.318024] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/bodyColl.dae\n'}
+[8.322397] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/wheel.dae\n'}
+[8.323461] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/cpr_platform_medium/wheelColl.dae\n'}
+[8.327637] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/gripper_schmalz_ecbpmi/Joint0.dae\n'}
+[8.329331] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/gripper_schmalz_ecbpmi/Joint0Coll.dae\n'}
+[8.341672] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint0.dae\n'}
+[8.349929] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint0Coll.dae\n'}
+[8.351706] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint1.dae\n'}
+[8.373749] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint1Coll.dae\n'}
+[8.377968] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint2.dae\n'}
+[8.383761] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint2Coll.dae\n'}
+[8.384603] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint3.dae\n'}
+[8.388146] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint3Coll.dae\n'}
+[8.409716] (-) TimerEvent: {}
+[8.411888] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint4.dae\n'}
+[8.413438] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_00/Joint4Coll.dae\n'}
+[8.422246] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint0.dae\n'}
+[8.437369] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint0Coll.dae\n'}
+[8.438750] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint1.dae\n'}
+[8.440491] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint1Coll.dae\n'}
+[8.441542] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint2.dae\n'}
+[8.452733] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint2Coll.dae\n'}
+[8.454558] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint3.dae\n'}
+[8.456163] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint3Coll.dae\n'}
+[8.468278] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint4.dae\n'}
+[8.484332] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_4dof_pre/Joint4Coll.dae\n'}
+[8.486654] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint0.dae\n'}
+[8.493291] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint0Coll.dae\n'}
+[8.494504] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint1.dae\n'}
+[8.504741] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint1Coll.dae\n'}
+[8.505502] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint2.dae\n'}
+[8.506418] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint2Coll.dae\n'}
+[8.507272] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint3.dae\n'}
+[8.507943] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint3Coll.dae\n'}
+[8.514965] (-) TimerEvent: {}
+[8.527986] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint4.dae\n'}
+[8.529651] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint4Coll.dae\n'}
+[8.537543] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint5.dae\n'}
+[8.539241] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint5Coll.dae\n'}
+[8.540550] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint6.dae\n'}
+[8.541635] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_00/Joint6Coll.dae\n'}
+[8.558538] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint0.dae\n'}
+[8.560325] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint0Coll.dae\n'}
+[8.562134] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint1.dae\n'}
+[8.562982] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint1Coll.dae\n'}
+[8.564502] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint2.dae\n'}
+[8.566222] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint2Coll.dae\n'}
+[8.573101] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint3.dae\n'}
+[8.582748] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint3Coll.dae\n'}
+[8.584491] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint4.dae\n'}
+[8.585666] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint4Coll.dae\n'}
+[8.586494] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint5.dae\n'}
+[8.600592] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint5Coll.dae\n'}
+[8.602038] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint6.dae\n'}
+[8.603230] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_rebel_6dof_pre/Joint6Coll.dae\n'}
+[8.604607] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint0.dae\n'}
+[8.605790] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint0Coll.dae\n'}
+[8.606939] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint1.dae\n'}
+[8.625584] (-) TimerEvent: {}
+[8.626952] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint1Coll.dae\n'}
+[8.628308] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint2.dae\n'}
+[8.629381] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint2Coll.dae\n'}
+[8.630430] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint3.dae\n'}
+[8.652625] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint3Coll.dae\n'}
+[8.655422] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint4.dae\n'}
+[8.657141] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint4Coll.dae\n'}
+[8.658434] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint5.dae\n'}
+[8.675110] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/meshes/igus_robolink_rl_dp_5/Joint5Coll.dae\n'}
+[8.678734] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/launch/visualize.launch.py\n'}
+[8.683080] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/cpr_platform_medium.urdf.xacro\n'}
+[8.685354] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/ext_dio_gripper.description.xacro\n'}
+[8.702341] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/ext_dio_gripper.ros2_control.xacro\n'}
+[8.705037] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/grippers.macro.xacro\n'}
+[8.710644] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/grippers/schmalz_ecbpmi.description.xacro\n'}
+[8.711817] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_rebel_4dof.urdf.xacro\n'}
+[8.712685] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_rebel_6dof.urdf.xacro\n'}
+[8.713497] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/igus_robolink_rl_dp_5.urdf.xacro\n'}
+[8.727615] (-) TimerEvent: {}
+[8.729608] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/modules/din_rail.ros2_control.xacro\n'}
+[8.731215] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/modules/rebel.ros2_control.xacro\n'}
+[8.732157] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.description.xacro\n'}
+[8.746329] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.macro.xacro\n'}
+[8.754454] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/platforms/cpr_platform_medium.ros2_control.xacro\n'}
+[8.757949] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/rebel_on_platform.urdf.xacro\n'}
+[8.785567] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof.macro.xacro\n'}
+[8.788366] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_00.description.xacro\n'}
+[8.791279] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_00.ros2_control.xacro\n'}
+[8.793268] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_01.description.xacro\n'}
+[8.794645] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_4dof_01.ros2_control.xacro\n'}
+[8.799197] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof.macro.xacro\n'}
+[8.801336] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_00.description.xacro\n'}
+[8.806821] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_00.ros2_control.xacro\n'}
+[8.817999] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_01.description.xacro\n'}
+[8.821252] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_01.ros2_control.xacro\n'}
+[8.829031] (-) TimerEvent: {}
+[8.829716] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_pre.description.xacro\n'}
+[8.830369] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_rebel_6dof_pre.ros2_control.xacro\n'}
+[8.830966] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.description.xacro\n'}
+[8.845799] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.macro.xacro\n'}
+[8.848011] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/urdf/robots/igus_robolink_rl_dp_5.ros2_control.xacro\n'}
+[8.870837] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/rviz/platform.rviz\n'}
+[8.872714] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/rviz/rebel.rviz\n'}
+[8.874095] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/package_run_dependencies/irc_ros_description\n'}
+[8.875200] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/parent_prefix_path/irc_ros_description\n'}
+[8.885178] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/ament_prefix_path.sh\n'}
+[8.908693] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/ament_prefix_path.dsv\n'}
+[8.911309] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/path.sh\n'}
+[8.912495] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/environment/path.dsv\n'}
+[8.913463] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.bash\n'}
+[8.914317] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.sh\n'}
+[8.915560] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.zsh\n'}
+[8.916788] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/local_setup.dsv\n'}
+[8.917808] (irc_ros_description) StdoutLine: {'line': b'-- Symlinking: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.dsv\n'}
+[8.919003] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/ament_index/resource_index/packages/irc_ros_description\n'}
+[8.933965] (-) TimerEvent: {}
+[8.935169] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/cmake/irc_ros_descriptionConfig.cmake\n'}
+[8.936701] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/cmake/irc_ros_descriptionConfig-version.cmake\n'}
+[8.937963] (irc_ros_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.xml\n'}
+[8.939213] (irc_ros_description) CommandEnded: {'returncode': 0}
+[9.035713] (-) TimerEvent: {}
+[9.139737] (-) TimerEvent: {}
+[9.206663] (irc_ros_description) JobEnded: {'identifier': 'irc_ros_description', 'rc': 0}
+[9.211795] (moveit) JobStarted: {'identifier': 'moveit'}
+[9.240066] (-) TimerEvent: {}
+[9.351711] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'cmake'}
+[9.352028] (-) TimerEvent: {}
+[9.354507] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'build'}
+[9.356288] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/perry/Jesus/Prueba6/build/moveit', '--', '-j4', '-l4'], 'cwd': '/home/perry/Jesus/Prueba6/build/moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[9.455750] (-) TimerEvent: {}
+[9.563129] (-) TimerEvent: {}
+[9.667671] (-) TimerEvent: {}
+[9.770065] (-) TimerEvent: {}
+[9.873940] (moveit) CommandEnded: {'returncode': 0}
+[9.878072] (-) TimerEvent: {}
+[9.899364] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'install'}
+[9.900475] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/perry/Jesus/Prueba6/build/moveit'], 'cwd': '/home/perry/Jesus/Prueba6/build/moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[9.968639] (moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[9.969736] (moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.976774] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit\n'}
+[9.977569] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit\n'}
+[9.978119] (-) TimerEvent: {}
+[9.984221] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.sh\n'}
+[9.985640] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.dsv\n'}
+[9.986597] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.sh\n'}
+[9.987289] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.dsv\n'}
+[9.988269] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.bash\n'}
+[10.012465] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.sh\n'}
+[10.013066] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.zsh\n'}
+[10.013603] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.dsv\n'}
+[10.014167] (moveit) StdoutLine: {'line': b'-- Symlinking: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.dsv\n'}
+[10.087707] (-) TimerEvent: {}
+[10.180078] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/packages/moveit\n'}
+[10.190398] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig.cmake\n'}
+[10.191304] (-) TimerEvent: {}
+[10.201007] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig-version.cmake\n'}
+[10.209448] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.xml\n'}
+[10.228797] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/demo.launch.py\n'}
+[10.242871] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/move_group.launch.py\n'}
+[10.263918] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/moveit_rviz.launch.py\n'}
+[10.276909] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/rsp.launch.py\n'}
+[10.282122] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/setup_assistant.launch.py\n'}
+[10.290831] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/spawn_controllers.launch.py\n'}
+[10.292271] (-) TimerEvent: {}
+[10.306763] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py\n'}
+[10.323088] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/launch/warehouse_db.launch.py\n'}
+[10.339384] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.ros2_control.xacro\n'}
+[10.353013] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.srdf\n'}
+[10.366909] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.urdf.xacro\n'}
+[10.396715] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/initial_positions.yaml\n'}
+[10.397698] (-) TimerEvent: {}
+[10.400101] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/joint_limits.yaml\n'}
+[10.402462] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/kinematics.yaml\n'}
+[10.403388] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/moveit.rviz\n'}
+[10.404092] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/moveit_controllers.yaml\n'}
+[10.404554] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml\n'}
+[10.405212] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/ros2_controllers.yaml\n'}
+[10.425850] (moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/.setup_assistant\n'}
+[10.427772] (moveit) CommandEnded: {'returncode': 0}
+[10.498161] (-) TimerEvent: {}
+[10.601471] (-) TimerEvent: {}
+[10.616265] (moveit) JobEnded: {'identifier': 'moveit', 'rc': 0}
+[10.701671] (-) TimerEvent: {}
+[10.802874] (-) TimerEvent: {}
+[10.905037] (-) TimerEvent: {}
+[11.009341] (-) TimerEvent: {}
+[11.112012] (-) TimerEvent: {}
+[11.214038] (-) TimerEvent: {}
+[11.315882] (-) TimerEvent: {}
+[11.417430] (-) TimerEvent: {}
+[11.518927] (-) TimerEvent: {}
+[11.621840] (-) TimerEvent: {}
+[11.724296] (-) TimerEvent: {}
+[11.826550] (-) TimerEvent: {}
+[11.929316] (-) TimerEvent: {}
+[12.031277] (-) TimerEvent: {}
+[12.134721] (-) TimerEvent: {}
+[12.237576] (-) TimerEvent: {}
+[12.340113] (-) TimerEvent: {}
+[12.442032] (-) TimerEvent: {}
+[12.542980] (-) TimerEvent: {}
+[12.645437] (-) TimerEvent: {}
+[12.747752] (-) TimerEvent: {}
+[12.849209] (-) TimerEvent: {}
+[12.950519] (-) TimerEvent: {}
+[13.055385] (-) TimerEvent: {}
+[13.157246] (-) TimerEvent: {}
+[13.258496] (-) TimerEvent: {}
+[13.362059] (-) TimerEvent: {}
+[13.470808] (-) TimerEvent: {}
+[13.572423] (-) TimerEvent: {}
+[13.681174] (-) TimerEvent: {}
+[13.782521] (-) TimerEvent: {}
+[13.883635] (-) TimerEvent: {}
+[13.985570] (-) TimerEvent: {}
+[14.088008] (-) TimerEvent: {}
+[14.190787] (-) TimerEvent: {}
+[14.292851] (-) TimerEvent: {}
+[14.394616] (-) TimerEvent: {}
+[14.496708] (-) TimerEvent: {}
+[14.600010] (-) TimerEvent: {}
+[14.705212] (-) TimerEvent: {}
+[14.808246] (-) TimerEvent: {}
+[14.910549] (-) TimerEvent: {}
+[15.012612] (-) TimerEvent: {}
+[15.114143] (-) TimerEvent: {}
+[15.215830] (-) TimerEvent: {}
+[15.318138] (-) TimerEvent: {}
+[15.420921] (-) TimerEvent: {}
+[15.523327] (-) TimerEvent: {}
+[15.624559] (-) TimerEvent: {}
+[15.725929] (-) TimerEvent: {}
+[15.828251] (-) TimerEvent: {}
+[15.930875] (-) TimerEvent: {}
+[16.033396] (-) TimerEvent: {}
+[16.135242] (-) TimerEvent: {}
+[16.243828] (-) TimerEvent: {}
+[16.346187] (-) TimerEvent: {}
+[16.451984] (-) TimerEvent: {}
+[16.553329] (-) TimerEvent: {}
+[16.655137] (-) TimerEvent: {}
+[16.756149] (-) TimerEvent: {}
+[16.864266] (-) TimerEvent: {}
+[16.970377] (-) TimerEvent: {}
+[17.072791] (-) TimerEvent: {}
+[17.175744] (-) TimerEvent: {}
+[17.277878] (-) TimerEvent: {}
+[17.386275] (-) TimerEvent: {}
+[17.493652] (-) TimerEvent: {}
+[17.596787] (-) TimerEvent: {}
+[17.710159] (-) TimerEvent: {}
+[17.812516] (-) TimerEvent: {}
+[17.914766] (-) TimerEvent: {}
+[18.017830] (-) TimerEvent: {}
+[18.119558] (-) TimerEvent: {}
+[18.172738] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/perry/Jesus/Prueba6/build/my_package/build', 'install', '--record', '/home/perry/Jesus/Prueba6/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/perry/Jesus/Prueba6/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'perry', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/perry', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/perry/Jesus/Prueba6/src', 'TERM_PROGRAM_VERSION': '1.99.3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1600', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'perry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'perry', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GZE032', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bce5cff3f2.sock', 'GNOME_TERMINAL_SERVICE': ':1.96', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/perry/Jesus/Prueba6/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit'}, 'shell': False}
+[18.219955] (-) TimerEvent: {}
+[18.323871] (-) TimerEvent: {}
+[18.425821] (-) TimerEvent: {}
+[18.533753] (-) TimerEvent: {}
+[18.637350] (-) TimerEvent: {}
+[18.741947] (-) TimerEvent: {}
+[18.844756] (-) TimerEvent: {}
+[18.947743] (-) TimerEvent: {}
+[19.050630] (-) TimerEvent: {}
+[19.153649] (-) TimerEvent: {}
+[19.256730] (-) TimerEvent: {}
+[19.359924] (-) TimerEvent: {}
+[19.469036] (-) TimerEvent: {}
+[19.573557] (-) TimerEvent: {}
+[19.676878] (-) TimerEvent: {}
+[19.779797] (-) TimerEvent: {}
+[19.882434] (-) TimerEvent: {}
+[19.987129] (-) TimerEvent: {}
+[20.089081] (-) TimerEvent: {}
+[20.192276] (-) TimerEvent: {}
+[20.299909] (-) TimerEvent: {}
+[20.402700] (-) TimerEvent: {}
+[20.513403] (-) TimerEvent: {}
+[20.616725] (-) TimerEvent: {}
+[20.719691] (-) TimerEvent: {}
+[20.822105] (-) TimerEvent: {}
+[20.924320] (-) TimerEvent: {}
+[21.027645] (-) TimerEvent: {}
+[21.129687] (-) TimerEvent: {}
+[21.231472] (-) TimerEvent: {}
+[21.334077] (-) TimerEvent: {}
+[21.436117] (-) TimerEvent: {}
+[21.543917] (-) TimerEvent: {}
+[21.646073] (-) TimerEvent: {}
+[21.752018] (-) TimerEvent: {}
+[21.853915] (-) TimerEvent: {}
+[21.959651] (-) TimerEvent: {}
+[22.087946] (-) TimerEvent: {}
+[22.200013] (-) TimerEvent: {}
+[22.301869] (-) TimerEvent: {}
+[22.403727] (-) TimerEvent: {}
+[22.506927] (-) TimerEvent: {}
+[22.610556] (-) TimerEvent: {}
+[22.719902] (-) TimerEvent: {}
+[22.822499] (-) TimerEvent: {}
+[22.925410] (-) TimerEvent: {}
+[23.031672] (-) TimerEvent: {}
+[23.133542] (-) TimerEvent: {}
+[23.235201] (-) TimerEvent: {}
+[23.337787] (-) TimerEvent: {}
+[23.440298] (-) TimerEvent: {}
+[23.542533] (-) TimerEvent: {}
+[23.643970] (-) TimerEvent: {}
+[23.746394] (-) TimerEvent: {}
+[23.851960] (-) TimerEvent: {}
+[23.954774] (-) TimerEvent: {}
+[24.058592] (-) TimerEvent: {}
+[24.163069] (-) TimerEvent: {}
+[24.275188] (-) TimerEvent: {}
+[24.376875] (-) TimerEvent: {}
+[24.480989] (-) TimerEvent: {}
+[24.583643] (-) TimerEvent: {}
+[24.686555] (-) TimerEvent: {}
+[24.788438] (-) TimerEvent: {}
+[24.890794] (-) TimerEvent: {}
+[24.992846] (-) TimerEvent: {}
+[25.094991] (-) TimerEvent: {}
+[25.197646] (-) TimerEvent: {}
+[25.300191] (-) TimerEvent: {}
+[25.402971] (-) TimerEvent: {}
+[25.505475] (-) TimerEvent: {}
+[25.604877] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[25.607772] (-) TimerEvent: {}
+[25.620567] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[25.627425] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[25.629551] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[25.638929] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[25.641508] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[25.663645] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[25.675327] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[25.677857] (my_package) StdoutLine: {'line': b'running build\n'}
+[25.679145] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[25.703339] (my_package) StdoutLine: {'line': b'running install\n'}
+[25.704887] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[25.711931] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[25.713642] (-) TimerEvent: {}
+[25.714921] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.733241] (my_package) StdoutLine: {'line': b"removing '/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.735766] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[25.751703] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[25.814243] (-) TimerEvent: {}
+[25.916424] (-) TimerEvent: {}
+[25.997438] (my_package) StdoutLine: {'line': b'Installing nodo_cinematica script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[26.003748] (my_package) StdoutLine: {'line': b'Installing nodo_cinematica_inv script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[26.004860] (my_package) StdoutLine: {'line': b'Installing nodo_mando script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[26.011777] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/perry/Jesus/Prueba6/build/my_package/install.log'\n"}
+[26.016710] (-) TimerEvent: {}
+[26.120083] (-) TimerEvent: {}
+[26.231956] (-) TimerEvent: {}
+[26.334803] (-) TimerEvent: {}
+[26.416688] (my_package) CommandEnded: {'returncode': 0}
+[26.435136] (-) TimerEvent: {}
+[26.539938] (-) TimerEvent: {}
+[26.607318] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[26.640896] (-) TimerEvent: {}
+[26.744801] (-) TimerEvent: {}
+[26.847391] (-) TimerEvent: {}
+[26.950915] (-) TimerEvent: {}
+[27.054060] (-) TimerEvent: {}
+[27.156887] (-) TimerEvent: {}
+[27.261099] (-) TimerEvent: {}
+[27.364798] (-) TimerEvent: {}
+[27.469033] (-) TimerEvent: {}
+[27.572471] (-) TimerEvent: {}
+[27.674593] (-) TimerEvent: {}
+[27.776958] (-) TimerEvent: {}
+[27.879338] (-) TimerEvent: {}
+[27.981298] (-) TimerEvent: {}
+[28.082930] (-) TimerEvent: {}
+[28.186215] (-) TimerEvent: {}
+[28.288162] (-) TimerEvent: {}
+[28.390287] (-) TimerEvent: {}
+[28.494515] (-) TimerEvent: {}
+[28.597538] (-) TimerEvent: {}
+[28.703875] (-) TimerEvent: {}
+[28.807063] (-) TimerEvent: {}
+[28.910755] (-) TimerEvent: {}
+[29.015696] (-) TimerEvent: {}
+[29.118021] (-) TimerEvent: {}
+[29.220304] (-) TimerEvent: {}
+[29.324614] (-) TimerEvent: {}
+[29.431888] (-) TimerEvent: {}
+[29.548327] (-) TimerEvent: {}
+[29.652224] (-) TimerEvent: {}
+[29.757270] (-) TimerEvent: {}
+[29.862379] (-) TimerEvent: {}
+[29.965855] (-) TimerEvent: {}
+[30.068274] (-) TimerEvent: {}
+[30.170992] (-) TimerEvent: {}
+[30.275848] (-) TimerEvent: {}
+[30.386286] (-) TimerEvent: {}
+[30.491350] (-) TimerEvent: {}
+[30.597048] (-) TimerEvent: {}
+[30.699762] (-) TimerEvent: {}
+[30.802700] (-) TimerEvent: {}
+[30.904916] (-) TimerEvent: {}
+[31.007797] (-) TimerEvent: {}
+[31.109843] (-) TimerEvent: {}
+[31.212975] (-) TimerEvent: {}
+[31.317145] (-) TimerEvent: {}
+[31.420114] (-) TimerEvent: {}
+[31.523383] (-) TimerEvent: {}
+[31.625727] (-) TimerEvent: {}
+[31.729977] (-) TimerEvent: {}
+[31.832586] (-) TimerEvent: {}
+[31.937125] (-) TimerEvent: {}
+[32.040177] (-) TimerEvent: {}
+[32.142400] (-) TimerEvent: {}
+[32.244549] (-) TimerEvent: {}
+[32.346775] (-) TimerEvent: {}
+[32.449806] (-) TimerEvent: {}
+[32.553703] (-) TimerEvent: {}
+[32.662250] (-) TimerEvent: {}
+[32.766194] (-) TimerEvent: {}
+[32.870929] (-) TimerEvent: {}
+[32.974859] (-) TimerEvent: {}
+[33.078037] (-) TimerEvent: {}
+[33.182050] (-) TimerEvent: {}
+[33.284583] (-) TimerEvent: {}
+[33.388228] (-) TimerEvent: {}
+[33.490511] (-) TimerEvent: {}
+[33.592961] (-) TimerEvent: {}
+[33.694470] (-) TimerEvent: {}
+[33.796677] (-) TimerEvent: {}
+[33.898643] (-) TimerEvent: {}
+[34.000399] (-) TimerEvent: {}
+[34.101959] (-) TimerEvent: {}
+[34.204499] (-) TimerEvent: {}
+[34.308060] (-) TimerEvent: {}
+[34.411741] (-) TimerEvent: {}
+[34.514927] (-) TimerEvent: {}
+[34.617728] (-) TimerEvent: {}
+[34.720048] (-) TimerEvent: {}
+[34.822371] (-) TimerEvent: {}
+[34.925863] (-) TimerEvent: {}
+[35.028655] (-) TimerEvent: {}
+[35.131225] (-) TimerEvent: {}
+[35.233588] (-) TimerEvent: {}
+[35.337156] (-) TimerEvent: {}
+[35.439719] (-) TimerEvent: {}
+[35.541679] (-) TimerEvent: {}
+[35.643724] (-) TimerEvent: {}
+[35.746983] (-) TimerEvent: {}
+[35.850183] (-) TimerEvent: {}
+[35.953620] (-) TimerEvent: {}
+[36.059338] (-) TimerEvent: {}
+[36.161493] (-) TimerEvent: {}
+[36.264888] (-) TimerEvent: {}
+[36.368764] (-) TimerEvent: {}
+[36.470941] (-) TimerEvent: {}
+[36.573968] (-) TimerEvent: {}
+[36.675823] (-) TimerEvent: {}
+[36.781617] (-) TimerEvent: {}
+[36.885020] (-) TimerEvent: {}
+[36.989420] (-) TimerEvent: {}
+[37.091916] (-) TimerEvent: {}
+[37.196610] (-) TimerEvent: {}
+[37.300637] (-) TimerEvent: {}
+[37.407999] (-) TimerEvent: {}
+[37.510869] (-) TimerEvent: {}
+[37.613823] (-) TimerEvent: {}
+[37.717126] (-) TimerEvent: {}
+[37.821300] (-) TimerEvent: {}
+[37.925188] (-) TimerEvent: {}
+[38.028175] (-) TimerEvent: {}
+[38.130013] (-) TimerEvent: {}
+[38.233722] (-) TimerEvent: {}
+[38.336452] (-) TimerEvent: {}
+[38.438575] (-) TimerEvent: {}
+[38.540221] (-) TimerEvent: {}
+[38.641933] (-) TimerEvent: {}
+[38.743593] (-) TimerEvent: {}
+[38.845384] (-) TimerEvent: {}
+[38.950962] (-) TimerEvent: {}
+[39.063479] (-) TimerEvent: {}
+[39.166205] (-) TimerEvent: {}
+[39.267841] (-) TimerEvent: {}
+[39.369186] (-) TimerEvent: {}
+[39.470930] (-) TimerEvent: {}
+[39.576537] (-) TimerEvent: {}
+[39.679938] (-) TimerEvent: {}
+[39.782994] (-) TimerEvent: {}
+[39.885997] (-) TimerEvent: {}
+[39.988971] (-) TimerEvent: {}
+[40.091774] (-) TimerEvent: {}
+[40.194470] (-) TimerEvent: {}
+[40.297223] (-) TimerEvent: {}
+[40.400498] (-) TimerEvent: {}
+[40.503385] (-) TimerEvent: {}
+[40.608150] (-) TimerEvent: {}
+[40.714728] (-) TimerEvent: {}
+[40.818739] (-) TimerEvent: {}
+[40.920957] (-) TimerEvent: {}
+[41.024223] (-) TimerEvent: {}
+[41.128198] (-) TimerEvent: {}
+[41.231732] (-) TimerEvent: {}
+[41.335355] (-) TimerEvent: {}
+[41.437621] (-) TimerEvent: {}
+[41.540730] (-) TimerEvent: {}
+[41.643236] (-) TimerEvent: {}
+[41.744672] (-) TimerEvent: {}
+[41.846139] (-) TimerEvent: {}
+[41.949498] (-) TimerEvent: {}
+[42.053726] (-) TimerEvent: {}
+[42.156405] (-) TimerEvent: {}
+[42.260136] (-) TimerEvent: {}
+[42.363379] (-) TimerEvent: {}
+[42.466505] (-) TimerEvent: {}
+[42.569434] (-) TimerEvent: {}
+[42.672639] (-) TimerEvent: {}
+[42.776552] (-) TimerEvent: {}
+[42.879217] (-) TimerEvent: {}
+[42.982187] (-) TimerEvent: {}
+[43.086770] (-) TimerEvent: {}
+[43.189802] (-) TimerEvent: {}
+[43.301608] (-) TimerEvent: {}
+[43.407245] (-) TimerEvent: {}
+[43.509320] (-) TimerEvent: {}
+[43.612039] (-) TimerEvent: {}
+[43.715349] (-) TimerEvent: {}
+[43.818798] (-) TimerEvent: {}
+[43.922817] (-) TimerEvent: {}
+[44.025063] (-) TimerEvent: {}
+[44.127659] (-) TimerEvent: {}
+[44.232534] (-) TimerEvent: {}
+[44.337247] (-) TimerEvent: {}
+[44.441476] (-) TimerEvent: {}
+[44.545402] (-) TimerEvent: {}
+[44.648367] (-) TimerEvent: {}
+[44.752961] (-) TimerEvent: {}
+[44.855278] (-) TimerEvent: {}
+[44.959856] (-) TimerEvent: {}
+[45.063156] (-) TimerEvent: {}
+[45.165188] (-) TimerEvent: {}
+[45.268152] (-) TimerEvent: {}
+[45.370921] (-) TimerEvent: {}
+[45.473788] (-) TimerEvent: {}
+[45.577270] (-) TimerEvent: {}
+[45.679357] (-) TimerEvent: {}
+[45.781791] (-) TimerEvent: {}
+[45.884135] (-) TimerEvent: {}
+[45.988742] (-) TimerEvent: {}
+[46.092536] (-) TimerEvent: {}
+[46.196198] (-) TimerEvent: {}
+[46.297932] (-) TimerEvent: {}
+[46.400238] (-) TimerEvent: {}
+[46.502458] (-) TimerEvent: {}
+[46.604956] (-) TimerEvent: {}
+[46.706932] (-) TimerEvent: {}
+[46.810680] (-) TimerEvent: {}
+[46.912506] (-) TimerEvent: {}
+[47.018545] (-) TimerEvent: {}
+[47.125649] (-) TimerEvent: {}
+[47.231584] (-) TimerEvent: {}
+[47.334069] (-) TimerEvent: {}
+[47.436986] (-) TimerEvent: {}
+[47.541461] (-) TimerEvent: {}
+[47.644770] (-) TimerEvent: {}
+[47.747183] (-) TimerEvent: {}
+[47.848951] (-) TimerEvent: {}
+[47.950683] (-) TimerEvent: {}
+[48.053674] (-) TimerEvent: {}
+[48.158093] (-) TimerEvent: {}
+[48.260042] (-) TimerEvent: {}
+[48.362601] (-) TimerEvent: {}
+[48.466734] (-) TimerEvent: {}
+[48.570343] (-) TimerEvent: {}
+[48.673053] (-) TimerEvent: {}
+[48.780769] (-) TimerEvent: {}
+[48.884360] (-) TimerEvent: {}
+[48.989015] (-) TimerEvent: {}
+[49.091917] (-) TimerEvent: {}
+[49.193986] (-) TimerEvent: {}
+[49.295880] (-) TimerEvent: {}
+[49.398991] (-) TimerEvent: {}
+[49.501836] (-) TimerEvent: {}
+[49.604647] (-) TimerEvent: {}
+[49.717809] (-) TimerEvent: {}
+[49.820962] (-) TimerEvent: {}
+[49.923446] (-) TimerEvent: {}
+[50.034969] (-) TimerEvent: {}
+[50.138973] (-) TimerEvent: {}
+[50.240976] (-) TimerEvent: {}
+[50.342913] (-) TimerEvent: {}
+[50.446011] (-) TimerEvent: {}
+[50.548771] (-) TimerEvent: {}
+[50.652144] (-) TimerEvent: {}
+[50.755403] (-) TimerEvent: {}
+[50.856838] (-) TimerEvent: {}
+[50.961318] (-) TimerEvent: {}
+[51.063402] (-) TimerEvent: {}
+[51.164528] (-) TimerEvent: {}
+[51.265884] (-) TimerEvent: {}
+[51.367306] (-) TimerEvent: {}
+[51.469372] (-) TimerEvent: {}
+[51.570978] (-) TimerEvent: {}
+[51.672231] (-) TimerEvent: {}
+[51.774247] (-) TimerEvent: {}
+[51.877373] (-) TimerEvent: {}
+[51.980834] (-) TimerEvent: {}
+[52.082867] (-) TimerEvent: {}
+[52.186889] (-) TimerEvent: {}
+[52.294831] (-) TimerEvent: {}
+[52.397987] (-) TimerEvent: {}
+[52.502706] (-) TimerEvent: {}
+[52.606946] (-) TimerEvent: {}
+[52.712653] (-) TimerEvent: {}
+[52.816789] (-) TimerEvent: {}
+[52.919982] (-) TimerEvent: {}
+[53.022750] (-) TimerEvent: {}
+[53.124930] (-) TimerEvent: {}
+[53.227436] (-) TimerEvent: {}
+[53.331648] (-) TimerEvent: {}
+[53.434399] (-) TimerEvent: {}
+[53.536014] (-) TimerEvent: {}
+[53.637583] (-) TimerEvent: {}
+[53.739430] (-) TimerEvent: {}
+[53.842055] (-) TimerEvent: {}
+[53.947706] (-) TimerEvent: {}
+[54.050328] (-) TimerEvent: {}
+[54.152778] (-) TimerEvent: {}
+[54.256563] (-) TimerEvent: {}
+[54.359460] (-) TimerEvent: {}
+[54.468449] (-) TimerEvent: {}
+[54.575725] (-) TimerEvent: {}
+[54.680344] (-) TimerEvent: {}
+[54.784253] (-) TimerEvent: {}
+[54.887903] (-) TimerEvent: {}
+[54.992335] (-) TimerEvent: {}
+[55.097101] (-) TimerEvent: {}
+[55.199831] (-) TimerEvent: {}
+[55.305067] (-) TimerEvent: {}
+[55.408473] (-) TimerEvent: {}
+[55.512146] (-) TimerEvent: {}
+[55.614834] (-) TimerEvent: {}
+[55.719936] (-) TimerEvent: {}
+[55.823268] (-) TimerEvent: {}
+[55.926377] (-) TimerEvent: {}
+[56.028127] (-) TimerEvent: {}
+[56.130029] (-) TimerEvent: {}
+[56.232878] (-) TimerEvent: {}
+[56.334865] (-) TimerEvent: {}
+[56.436963] (-) TimerEvent: {}
+[56.538990] (-) TimerEvent: {}
+[56.640985] (-) TimerEvent: {}
+[56.746339] (-) TimerEvent: {}
+[56.848710] (-) TimerEvent: {}
+[56.951589] (-) TimerEvent: {}
+[57.053663] (-) TimerEvent: {}
+[57.156468] (-) TimerEvent: {}
+[57.259847] (-) TimerEvent: {}
+[57.362568] (-) TimerEvent: {}
+[57.466423] (-) TimerEvent: {}
+[57.569554] (-) TimerEvent: {}
+[57.672741] (-) TimerEvent: {}
+[57.778112] (-) TimerEvent: {}
+[57.880876] (-) TimerEvent: {}
+[57.983730] (-) TimerEvent: {}
+[58.085933] (-) TimerEvent: {}
+[58.188013] (-) TimerEvent: {}
+[58.296704] (-) TimerEvent: {}
+[58.400016] (-) TimerEvent: {}
+[58.502503] (-) TimerEvent: {}
+[58.605379] (-) TimerEvent: {}
+[58.708610] (-) TimerEvent: {}
+[58.812160] (-) TimerEvent: {}
+[58.915111] (-) TimerEvent: {}
+[59.018559] (-) TimerEvent: {}
+[59.123339] (-) TimerEvent: {}
+[59.226612] (-) TimerEvent: {}
+[59.336517] (-) TimerEvent: {}
+[59.440056] (-) TimerEvent: {}
+[59.545106] (-) TimerEvent: {}
+[59.648829] (-) TimerEvent: {}
+[59.751868] (-) TimerEvent: {}
+[59.853823] (-) TimerEvent: {}
+[59.957967] (-) TimerEvent: {}
+[60.060589] (-) TimerEvent: {}
+[60.162152] (-) TimerEvent: {}
+[60.263702] (-) TimerEvent: {}
+[60.365194] (-) TimerEvent: {}
+[60.467052] (-) TimerEvent: {}
+[60.571317] (-) TimerEvent: {}
+[60.677113] (-) TimerEvent: {}
+[60.780099] (-) TimerEvent: {}
+[60.885057] (-) TimerEvent: {}
+[60.989451] (-) TimerEvent: {}
+[61.094301] (-) TimerEvent: {}
+[61.202774] (-) TimerEvent: {}
+[61.306992] (-) TimerEvent: {}
+[61.410552] (-) TimerEvent: {}
+[61.515003] (-) TimerEvent: {}
+[61.621185] (-) TimerEvent: {}
+[61.727470] (-) TimerEvent: {}
+[61.836242] (-) TimerEvent: {}
+[61.939916] (-) TimerEvent: {}
+[62.043742] (-) TimerEvent: {}
+[62.148760] (-) TimerEvent: {}
+[62.253440] (-) TimerEvent: {}
+[62.360428] (-) TimerEvent: {}
+[62.464046] (-) TimerEvent: {}
+[62.572046] (-) TimerEvent: {}
+[62.677204] (-) TimerEvent: {}
+[62.781143] (-) TimerEvent: {}
+[62.887870] (-) TimerEvent: {}
+[62.990601] (-) TimerEvent: {}
+[63.094653] (-) TimerEvent: {}
+[63.197549] (-) TimerEvent: {}
+[63.301410] (-) TimerEvent: {}
+[63.406839] (-) TimerEvent: {}
+[63.511665] (-) TimerEvent: {}
+[63.614233] (-) TimerEvent: {}
+[63.717614] (-) TimerEvent: {}
+[63.821423] (-) TimerEvent: {}
+[63.922933] (-) TimerEvent: {}
+[64.025118] (-) TimerEvent: {}
+[64.128451] (-) TimerEvent: {}
+[64.234531] (-) TimerEvent: {}
+[64.338276] (-) TimerEvent: {}
+[64.442893] (-) TimerEvent: {}
+[64.546022] (-) TimerEvent: {}
+[64.649526] (-) TimerEvent: {}
+[64.752819] (-) TimerEvent: {}
+[64.859786] (-) TimerEvent: {}
+[64.963358] (-) TimerEvent: {}
+[65.072669] (-) TimerEvent: {}
+[65.184429] (-) TimerEvent: {}
+[65.290684] (-) TimerEvent: {}
+[65.394559] (-) TimerEvent: {}
+[65.503325] (-) TimerEvent: {}
+[65.607805] (-) TimerEvent: {}
+[65.714704] (-) TimerEvent: {}
+[65.817668] (-) TimerEvent: {}
+[65.919879] (-) TimerEvent: {}
+[66.023863] (-) TimerEvent: {}
+[66.127690] (-) TimerEvent: {}
+[66.230098] (-) TimerEvent: {}
+[66.332060] (-) TimerEvent: {}
+[66.433823] (-) TimerEvent: {}
+[66.535969] (-) TimerEvent: {}
+[66.638654] (-) TimerEvent: {}
+[66.742837] (-) TimerEvent: {}
+[66.846868] (-) TimerEvent: {}
+[66.949065] (-) TimerEvent: {}
+[67.051775] (-) TimerEvent: {}
+[67.153325] (-) TimerEvent: {}
+[67.254463] (-) TimerEvent: {}
+[67.356664] (-) TimerEvent: {}
+[67.459003] (-) TimerEvent: {}
+[67.561165] (-) TimerEvent: {}
+[67.662581] (-) TimerEvent: {}
+[67.764080] (-) TimerEvent: {}
+[67.865454] (-) TimerEvent: {}
+[67.967624] (-) TimerEvent: {}
+[68.069923] (-) TimerEvent: {}
+[68.171234] (-) TimerEvent: {}
+[68.274103] (-) TimerEvent: {}
+[68.377252] (-) TimerEvent: {}
+[68.481969] (-) TimerEvent: {}
+[68.584036] (-) TimerEvent: {}
+[68.686387] (-) TimerEvent: {}
+[68.787710] (-) TimerEvent: {}
+[68.889343] (-) TimerEvent: {}
+[68.992121] (-) TimerEvent: {}
+[69.094371] (-) TimerEvent: {}
+[69.198116] (-) TimerEvent: {}
+[69.300503] (-) TimerEvent: {}
+[69.403145] (-) TimerEvent: {}
+[69.505335] (-) TimerEvent: {}
+[69.608087] (-) TimerEvent: {}
+[69.713599] (-) TimerEvent: {}
+[69.815836] (-) TimerEvent: {}
+[69.920188] (-) TimerEvent: {}
+[70.022575] (-) TimerEvent: {}
+[70.126926] (-) TimerEvent: {}
+[70.229830] (-) TimerEvent: {}
+[70.333366] (-) TimerEvent: {}
+[70.438287] (-) TimerEvent: {}
+[70.542481] (-) TimerEvent: {}
+[70.645527] (-) TimerEvent: {}
+[70.750904] (-) TimerEvent: {}
+[70.854511] (-) TimerEvent: {}
+[70.957488] (-) TimerEvent: {}
+[71.061022] (-) TimerEvent: {}
+[71.163679] (-) TimerEvent: {}
+[71.266211] (-) TimerEvent: {}
+[71.368831] (-) TimerEvent: {}
+[71.471471] (-) TimerEvent: {}
+[71.575254] (-) TimerEvent: {}
+[71.677467] (-) TimerEvent: {}
+[71.780548] (-) TimerEvent: {}
+[71.885050] (-) TimerEvent: {}
+[71.988852] (-) TimerEvent: {}
+[72.092113] (-) TimerEvent: {}
+[72.200739] (-) TimerEvent: {}
+[72.302444] (-) TimerEvent: {}
+[72.404169] (-) TimerEvent: {}
+[72.506731] (-) TimerEvent: {}
+[72.608986] (-) TimerEvent: {}
+[72.712243] (-) TimerEvent: {}
+[72.815943] (-) TimerEvent: {}
+[72.919078] (-) TimerEvent: {}
+[73.029915] (-) TimerEvent: {}
+[73.135992] (-) TimerEvent: {}
+[73.241193] (-) TimerEvent: {}
+[73.344291] (-) TimerEvent: {}
+[73.449236] (-) TimerEvent: {}
+[73.551799] (-) TimerEvent: {}
+[73.655353] (-) TimerEvent: {}
+[73.759348] (-) TimerEvent: {}
+[73.865058] (-) TimerEvent: {}
+[73.967580] (-) TimerEvent: {}
+[74.070577] (-) TimerEvent: {}
+[74.173158] (-) TimerEvent: {}
+[74.275828] (-) TimerEvent: {}
+[74.379927] (-) TimerEvent: {}
+[74.483340] (-) TimerEvent: {}
+[74.586990] (-) TimerEvent: {}
+[74.688909] (-) TimerEvent: {}
+[74.790142] (-) TimerEvent: {}
+[74.893635] (-) TimerEvent: {}
+[74.995542] (-) TimerEvent: {}
+[75.097736] (-) TimerEvent: {}
+[75.200264] (-) TimerEvent: {}
+[75.301712] (-) TimerEvent: {}
+[75.405470] (-) TimerEvent: {}
+[75.508394] (-) TimerEvent: {}
+[75.612453] (-) TimerEvent: {}
+[75.716210] (-) TimerEvent: {}
+[75.818418] (-) TimerEvent: {}
+[75.921075] (-) TimerEvent: {}
+[76.025659] (-) TimerEvent: {}
+[76.128529] (-) TimerEvent: {}
+[76.231668] (-) TimerEvent: {}
+[76.334726] (-) TimerEvent: {}
+[76.436805] (-) TimerEvent: {}
+[76.538711] (-) TimerEvent: {}
+[76.640359] (-) TimerEvent: {}
+[76.742188] (-) TimerEvent: {}
+[76.843670] (-) TimerEvent: {}
+[76.944959] (-) TimerEvent: {}
+[77.047459] (-) TimerEvent: {}
+[77.149356] (-) TimerEvent: {}
+[77.251689] (-) TimerEvent: {}
+[77.356405] (-) TimerEvent: {}
+[77.461944] (-) TimerEvent: {}
+[77.567126] (-) TimerEvent: {}
+[77.680303] (-) TimerEvent: {}
+[77.782752] (-) TimerEvent: {}
+[77.884552] (-) TimerEvent: {}
+[77.986429] (-) TimerEvent: {}
+[78.088702] (-) TimerEvent: {}
+[78.190970] (-) TimerEvent: {}
+[78.294467] (-) TimerEvent: {}
+[78.397568] (-) TimerEvent: {}
+[78.505340] (-) TimerEvent: {}
+[78.609199] (-) TimerEvent: {}
+[78.711701] (-) TimerEvent: {}
+[78.815204] (-) TimerEvent: {}
+[78.918014] (-) TimerEvent: {}
+[79.020638] (-) TimerEvent: {}
+[79.123099] (-) TimerEvent: {}
+[79.227219] (-) TimerEvent: {}
+[79.328949] (-) TimerEvent: {}
+[79.430439] (-) TimerEvent: {}
+[79.532628] (-) TimerEvent: {}
+[79.635220] (-) TimerEvent: {}
+[79.737845] (-) TimerEvent: {}
+[79.840630] (-) TimerEvent: {}
+[79.946190] (-) TimerEvent: {}
+[80.048447] (-) TimerEvent: {}
+[80.150149] (-) TimerEvent: {}
+[80.252242] (-) TimerEvent: {}
+[80.354452] (-) TimerEvent: {}
+[80.460840] (-) TimerEvent: {}
+[80.569338] (-) TimerEvent: {}
+[80.672311] (-) TimerEvent: {}
+[80.775309] (-) TimerEvent: {}
+[80.878296] (-) TimerEvent: {}
+[80.981144] (-) TimerEvent: {}
+[81.084876] (-) TimerEvent: {}
+[81.195284] (-) TimerEvent: {}
+[81.296917] (-) TimerEvent: {}
+[81.398752] (-) TimerEvent: {}
+[81.501439] (-) TimerEvent: {}
+[81.604122] (-) TimerEvent: {}
+[81.706431] (-) TimerEvent: {}
+[81.809681] (-) TimerEvent: {}
+[81.912937] (-) TimerEvent: {}
+[82.014429] (-) TimerEvent: {}
+[82.116870] (-) TimerEvent: {}
+[82.219107] (-) TimerEvent: {}
+[82.322086] (-) TimerEvent: {}
+[82.426319] (-) TimerEvent: {}
+[82.530578] (-) TimerEvent: {}
+[82.634016] (-) TimerEvent: {}
+[82.738586] (-) TimerEvent: {}
+[82.841846] (-) TimerEvent: {}
+[82.944395] (-) TimerEvent: {}
+[83.047873] (-) TimerEvent: {}
+[83.150104] (-) TimerEvent: {}
+[83.254104] (-) TimerEvent: {}
+[83.357646] (-) TimerEvent: {}
+[83.460109] (-) TimerEvent: {}
+[83.562471] (-) TimerEvent: {}
+[83.665386] (-) TimerEvent: {}
+[83.767244] (-) TimerEvent: {}
+[83.869782] (-) TimerEvent: {}
+[83.971834] (-) TimerEvent: {}
+[84.073396] (-) TimerEvent: {}
+[84.175153] (-) TimerEvent: {}
+[84.280194] (-) TimerEvent: {}
+[84.382938] (-) TimerEvent: {}
+[84.486120] (-) TimerEvent: {}
+[84.588549] (-) TimerEvent: {}
+[84.691613] (-) TimerEvent: {}
+[84.793888] (-) TimerEvent: {}
+[84.897143] (-) TimerEvent: {}
+[85.000517] (-) TimerEvent: {}
+[85.105433] (-) TimerEvent: {}
+[85.208534] (-) TimerEvent: {}
+[85.310823] (-) TimerEvent: {}
+[85.414482] (-) TimerEvent: {}
+[85.517775] (-) TimerEvent: {}
+[85.621011] (-) TimerEvent: {}
+[85.724926] (-) TimerEvent: {}
+[85.827309] (-) TimerEvent: {}
+[85.929748] (-) TimerEvent: {}
+[86.032445] (-) TimerEvent: {}
+[86.134559] (-) TimerEvent: {}
+[86.236926] (-) TimerEvent: {}
+[86.340032] (-) TimerEvent: {}
+[86.442326] (-) TimerEvent: {}
+[86.544942] (-) TimerEvent: {}
+[86.647224] (-) TimerEvent: {}
+[86.750340] (-) TimerEvent: {}
+[86.852929] (-) TimerEvent: {}
+[86.954916] (-) TimerEvent: {}
+[87.058212] (-) TimerEvent: {}
+[87.161775] (-) TimerEvent: {}
+[87.264977] (-) TimerEvent: {}
+[87.368403] (-) TimerEvent: {}
+[87.470737] (-) TimerEvent: {}
+[87.572884] (-) TimerEvent: {}
+[87.675272] (-) TimerEvent: {}
+[87.778137] (-) TimerEvent: {}
+[87.881545] (-) TimerEvent: {}
+[87.984484] (-) TimerEvent: {}
+[88.086349] (-) TimerEvent: {}
+[88.188760] (-) TimerEvent: {}
+[88.295984] (-) TimerEvent: {}
+[88.398104] (-) TimerEvent: {}
+[88.500969] (-) TimerEvent: {}
+[88.604613] (-) TimerEvent: {}
+[88.710910] (-) TimerEvent: {}
+[88.812729] (-) TimerEvent: {}
+[88.915726] (-) TimerEvent: {}
+[89.018631] (-) TimerEvent: {}
+[89.122103] (-) TimerEvent: {}
+[89.223746] (-) TimerEvent: {}
+[89.326284] (-) TimerEvent: {}
+[89.428343] (-) TimerEvent: {}
+[89.529342] (-) TimerEvent: {}
+[89.630448] (-) TimerEvent: {}
+[89.732278] (-) TimerEvent: {}
+[89.837372] (-) TimerEvent: {}
+[89.940475] (-) TimerEvent: {}
+[90.043348] (-) TimerEvent: {}
+[90.144697] (-) TimerEvent: {}
+[90.247720] (-) TimerEvent: {}
+[90.351070] (-) TimerEvent: {}
+[90.454158] (-) TimerEvent: {}
+[90.555676] (-) TimerEvent: {}
+[90.659976] (-) TimerEvent: {}
+[90.762727] (-) TimerEvent: {}
+[90.865441] (-) TimerEvent: {}
+[90.968421] (-) TimerEvent: {}
+[91.072076] (-) TimerEvent: {}
+[91.176719] (-) TimerEvent: {}
+[91.279456] (-) TimerEvent: {}
+[91.381269] (-) TimerEvent: {}
+[91.488601] (-) TimerEvent: {}
+[91.591035] (-) TimerEvent: {}
+[91.693466] (-) TimerEvent: {}
+[91.796675] (-) TimerEvent: {}
+[91.899707] (-) TimerEvent: {}
+[92.001851] (-) TimerEvent: {}
+[92.111408] (-) TimerEvent: {}
+[92.214697] (-) TimerEvent: {}
+[92.317006] (-) TimerEvent: {}
+[92.419400] (-) TimerEvent: {}
+[92.520959] (-) TimerEvent: {}
+[92.623386] (-) TimerEvent: {}
+[92.728031] (-) TimerEvent: {}
+[92.830454] (-) TimerEvent: {}
+[92.934003] (-) TimerEvent: {}
+[93.037449] (-) TimerEvent: {}
+[93.140783] (-) TimerEvent: {}
+[93.245812] (-) TimerEvent: {}
+[93.348592] (-) TimerEvent: {}
+[93.451942] (-) TimerEvent: {}
+[93.553905] (-) TimerEvent: {}
+[93.656506] (-) TimerEvent: {}
+[93.759022] (-) TimerEvent: {}
+[93.861578] (-) TimerEvent: {}
+[93.964323] (-) TimerEvent: {}
+[94.066947] (-) TimerEvent: {}
+[94.168749] (-) TimerEvent: {}
+[94.270651] (-) TimerEvent: {}
+[94.372787] (-) TimerEvent: {}
+[94.476064] (-) TimerEvent: {}
+[94.582612] (-) TimerEvent: {}
+[94.686721] (-) TimerEvent: {}
+[94.789644] (-) TimerEvent: {}
+[94.899646] (-) TimerEvent: {}
+[95.002214] (-) TimerEvent: {}
+[95.111264] (-) TimerEvent: {}
+[95.213562] (-) TimerEvent: {}
+[95.316297] (-) TimerEvent: {}
+[95.419771] (-) TimerEvent: {}
+[95.531699] (-) TimerEvent: {}
+[95.635923] (-) TimerEvent: {}
+[95.737629] (-) TimerEvent: {}
+[95.843611] (-) TimerEvent: {}
+[95.946291] (-) TimerEvent: {}
+[96.049458] (-) TimerEvent: {}
+[96.151738] (-) TimerEvent: {}
+[96.253288] (-) TimerEvent: {}
+[96.354952] (-) TimerEvent: {}
+[96.456760] (-) TimerEvent: {}
+[96.559221] (-) TimerEvent: {}
+[96.661387] (-) TimerEvent: {}
+[96.763251] (-) TimerEvent: {}
+[96.865456] (-) TimerEvent: {}
+[96.967444] (-) TimerEvent: {}
+[97.069052] (-) TimerEvent: {}
+[97.170551] (-) TimerEvent: {}
+[97.272609] (-) TimerEvent: {}
+[97.375636] (-) TimerEvent: {}
+[97.478115] (-) TimerEvent: {}
+[97.582065] (-) TimerEvent: {}
+[97.688692] (-) TimerEvent: {}
+[97.793223] (-) TimerEvent: {}
+[97.896068] (-) TimerEvent: {}
+[97.999361] (-) TimerEvent: {}
+[98.102117] (-) TimerEvent: {}
+[98.203971] (-) TimerEvent: {}
+[98.306298] (-) TimerEvent: {}
+[98.408341] (-) TimerEvent: {}
+[98.510701] (-) TimerEvent: {}
+[98.613506] (-) TimerEvent: {}
+[98.717705] (-) TimerEvent: {}
+[98.820703] (-) TimerEvent: {}
+[98.923725] (-) TimerEvent: {}
+[99.026960] (-) TimerEvent: {}
+[99.129731] (-) TimerEvent: {}
+[99.235565] (-) TimerEvent: {}
+[99.346233] (-) TimerEvent: {}
+[99.447740] (-) TimerEvent: {}
+[99.550640] (-) TimerEvent: {}
+[99.652888] (-) TimerEvent: {}
+[99.754945] (-) TimerEvent: {}
+[99.858741] (-) TimerEvent: {}
+[99.961504] (-) TimerEvent: {}
+[100.064886] (-) TimerEvent: {}
+[100.167121] (-) TimerEvent: {}
+[100.268717] (-) TimerEvent: {}
+[100.370546] (-) TimerEvent: {}
+[100.476489] (-) TimerEvent: {}
+[100.578036] (-) TimerEvent: {}
+[100.681489] (-) TimerEvent: {}
+[100.782940] (-) TimerEvent: {}
+[100.885094] (-) TimerEvent: {}
+[100.990279] (-) TimerEvent: {}
+[101.098407] (-) TimerEvent: {}
+[101.201328] (-) TimerEvent: {}
+[101.303393] (-) TimerEvent: {}
+[101.404779] (-) TimerEvent: {}
+[101.506406] (-) TimerEvent: {}
+[101.613926] (-) TimerEvent: {}
+[101.716576] (-) TimerEvent: {}
+[101.818391] (-) TimerEvent: {}
+[101.920937] (-) TimerEvent: {}
+[102.024433] (-) TimerEvent: {}
+[102.128512] (-) TimerEvent: {}
+[102.230909] (-) TimerEvent: {}
+[102.333608] (-) TimerEvent: {}
+[102.436378] (-) TimerEvent: {}
+[102.542219] (-) TimerEvent: {}
+[102.645831] (-) TimerEvent: {}
+[102.749670] (-) TimerEvent: {}
+[102.852685] (-) TimerEvent: {}
+[102.955997] (-) TimerEvent: {}
+[103.059793] (-) TimerEvent: {}
+[103.162513] (-) TimerEvent: {}
+[103.265291] (-) TimerEvent: {}
+[103.367342] (-) TimerEvent: {}
+[103.468803] (-) TimerEvent: {}
+[103.570529] (-) TimerEvent: {}
+[103.674253] (-) TimerEvent: {}
+[103.777183] (-) TimerEvent: {}
+[103.879903] (-) TimerEvent: {}
+[103.983339] (-) TimerEvent: {}
+[104.085714] (-) TimerEvent: {}
+[104.187357] (-) TimerEvent: {}
+[104.290045] (-) TimerEvent: {}
+[104.393042] (-) TimerEvent: {}
+[104.496314] (-) TimerEvent: {}
+[104.600406] (-) TimerEvent: {}
+[104.704620] (-) TimerEvent: {}
+[104.807146] (-) TimerEvent: {}
+[104.909925] (-) TimerEvent: {}
+[105.011988] (-) TimerEvent: {}
+[105.115414] (-) TimerEvent: {}
+[105.219891] (-) TimerEvent: {}
+[105.322593] (-) TimerEvent: {}
+[105.425270] (-) TimerEvent: {}
+[105.527747] (-) TimerEvent: {}
+[105.630328] (-) TimerEvent: {}
+[105.733564] (-) TimerEvent: {}
+[105.838842] (-) TimerEvent: {}
+[105.942872] (-) TimerEvent: {}
+[106.045587] (-) TimerEvent: {}
+[106.147979] (-) TimerEvent: {}
+[106.249846] (-) TimerEvent: {}
+[106.351713] (-) TimerEvent: {}
+[106.454398] (-) TimerEvent: {}
+[106.558017] (-) TimerEvent: {}
+[106.660794] (-) TimerEvent: {}
+[106.763385] (-) TimerEvent: {}
+[106.865407] (-) TimerEvent: {}
+[106.967717] (-) TimerEvent: {}
+[107.073824] (-) TimerEvent: {}
+[107.175863] (-) TimerEvent: {}
+[107.278086] (-) TimerEvent: {}
+[107.380636] (-) TimerEvent: {}
+[107.484330] (-) TimerEvent: {}
+[107.590493] (-) TimerEvent: {}
+[107.692799] (-) TimerEvent: {}
+[107.795243] (-) TimerEvent: {}
+[107.898789] (-) TimerEvent: {}
+[108.009866] (-) TimerEvent: {}
+[108.111958] (-) TimerEvent: {}
+[108.214737] (-) TimerEvent: {}
+[108.318217] (-) TimerEvent: {}
+[108.422171] (-) TimerEvent: {}
+[108.526214] (-) TimerEvent: {}
+[108.628414] (-) TimerEvent: {}
+[108.730798] (-) TimerEvent: {}
+[108.832598] (-) TimerEvent: {}
+[108.934871] (-) TimerEvent: {}
+[109.037722] (-) TimerEvent: {}
+[109.139606] (-) TimerEvent: {}
+[109.242281] (-) TimerEvent: {}
+[109.343583] (-) TimerEvent: {}
+[109.446837] (-) TimerEvent: {}
+[109.549191] (-) TimerEvent: {}
+[109.650839] (-) TimerEvent: {}
+[109.753101] (-) TimerEvent: {}
+[109.856152] (-) TimerEvent: {}
+[109.958106] (-) TimerEvent: {}
+[110.060505] (-) TimerEvent: {}
+[110.162606] (-) TimerEvent: {}
+[110.265395] (-) TimerEvent: {}
+[110.367567] (-) TimerEvent: {}
+[110.469756] (-) TimerEvent: {}
+[110.572356] (-) TimerEvent: {}
+[110.674765] (-) TimerEvent: {}
+[110.778890] (-) TimerEvent: {}
+[110.881643] (-) TimerEvent: {}
+[110.984215] (-) TimerEvent: {}
+[111.087807] (-) TimerEvent: {}
+[111.198673] (-) TimerEvent: {}
+[111.302435] (-) TimerEvent: {}
+[111.404741] (-) TimerEvent: {}
+[111.507013] (-) TimerEvent: {}
+[111.611170] (-) TimerEvent: {}
+[111.714052] (-) TimerEvent: {}
+[111.819643] (-) TimerEvent: {}
+[111.922808] (-) TimerEvent: {}
+[112.028128] (-) TimerEvent: {}
+[112.130486] (-) TimerEvent: {}
+[112.232203] (-) TimerEvent: {}
+[112.335606] (-) TimerEvent: {}
+[112.438809] (-) TimerEvent: {}
+[112.542413] (-) TimerEvent: {}
+[112.646919] (-) TimerEvent: {}
+[112.751895] (-) TimerEvent: {}
+[112.856155] (-) TimerEvent: {}
+[112.959230] (-) TimerEvent: {}
+[113.064451] (-) TimerEvent: {}
+[113.171780] (-) TimerEvent: {}
+[113.274231] (-) TimerEvent: {}
+[113.377833] (-) TimerEvent: {}
+[113.482236] (-) TimerEvent: {}
+[113.583956] (-) TimerEvent: {}
+[113.686789] (-) TimerEvent: {}
+[113.789503] (-) TimerEvent: {}
+[113.890859] (-) TimerEvent: {}
+[113.993446] (-) TimerEvent: {}
+[114.096521] (-) TimerEvent: {}
+[114.201794] (-) TimerEvent: {}
+[114.305617] (-) TimerEvent: {}
+[114.411614] (-) TimerEvent: {}
+[114.514823] (-) TimerEvent: {}
+[114.619432] (-) TimerEvent: {}
+[114.723114] (-) TimerEvent: {}
+[114.827455] (-) TimerEvent: {}
+[114.932203] (-) TimerEvent: {}
+[115.040978] (-) TimerEvent: {}
+[115.146369] (-) TimerEvent: {}
+[115.250065] (-) TimerEvent: {}
+[115.363438] (-) TimerEvent: {}
+[115.466986] (-) TimerEvent: {}
+[115.569848] (-) TimerEvent: {}
+[115.672440] (-) TimerEvent: {}
+[115.776091] (-) TimerEvent: {}
+[115.879462] (-) TimerEvent: {}
+[115.986393] (-) TimerEvent: {}
+[116.089426] (-) TimerEvent: {}
+[116.193311] (-) TimerEvent: {}
+[116.295796] (-) TimerEvent: {}
+[116.399227] (-) TimerEvent: {}
+[116.501319] (-) TimerEvent: {}
+[116.603617] (-) TimerEvent: {}
+[116.706145] (-) TimerEvent: {}
+[116.807328] (-) TimerEvent: {}
+[116.908481] (-) TimerEvent: {}
+[117.009758] (-) TimerEvent: {}
+[117.113194] (-) TimerEvent: {}
+[117.214909] (-) TimerEvent: {}
+[117.317731] (-) TimerEvent: {}
+[117.420047] (-) TimerEvent: {}
+[117.522669] (-) TimerEvent: {}
+[117.626214] (-) TimerEvent: {}
+[117.730976] (-) TimerEvent: {}
+[117.834506] (-) TimerEvent: {}
+[117.937105] (-) TimerEvent: {}
+[118.039880] (-) TimerEvent: {}
+[118.144518] (-) TimerEvent: {}
+[118.246588] (-) TimerEvent: {}
+[118.349430] (-) TimerEvent: {}
+[118.451356] (-) TimerEvent: {}
+[118.554273] (-) TimerEvent: {}
+[118.660545] (-) TimerEvent: {}
+[118.763444] (-) TimerEvent: {}
+[118.868079] (-) TimerEvent: {}
+[118.970446] (-) TimerEvent: {}
+[119.073348] (-) TimerEvent: {}
+[119.174910] (-) TimerEvent: {}
+[119.278847] (-) TimerEvent: {}
+[119.381721] (-) TimerEvent: {}
+[119.484087] (-) TimerEvent: {}
+[119.591663] (-) TimerEvent: {}
+[119.694673] (-) TimerEvent: {}
+[119.799722] (-) TimerEvent: {}
+[119.903458] (-) TimerEvent: {}
+[120.010453] (-) TimerEvent: {}
+[120.116050] (-) TimerEvent: {}
+[120.224582] (-) TimerEvent: {}
+[120.331436] (-) TimerEvent: {}
+[120.433688] (-) TimerEvent: {}
+[120.535997] (-) TimerEvent: {}
+[120.639166] (-) TimerEvent: {}
+[120.742428] (-) TimerEvent: {}
+[120.847027] (-) TimerEvent: {}
+[120.951908] (-) TimerEvent: {}
+[121.054613] (-) TimerEvent: {}
+[121.158236] (-) TimerEvent: {}
+[121.260826] (-) TimerEvent: {}
+[121.364401] (-) TimerEvent: {}
+[121.466568] (-) TimerEvent: {}
+[121.568185] (-) TimerEvent: {}
+[121.670057] (-) TimerEvent: {}
+[121.771947] (-) TimerEvent: {}
+[121.875278] (-) TimerEvent: {}
+[121.978791] (-) TimerEvent: {}
+[122.086679] (-) TimerEvent: {}
+[122.192471] (-) TimerEvent: {}
+[122.294910] (-) TimerEvent: {}
+[122.396418] (-) TimerEvent: {}
+[122.500106] (-) TimerEvent: {}
+[122.602959] (-) TimerEvent: {}
+[122.705405] (-) TimerEvent: {}
+[122.808730] (-) TimerEvent: {}
+[122.911795] (-) TimerEvent: {}
+[123.014776] (-) TimerEvent: {}
+[123.118070] (-) TimerEvent: {}
+[123.220606] (-) TimerEvent: {}
+[123.322383] (-) TimerEvent: {}
+[123.424242] (-) TimerEvent: {}
+[123.525565] (-) TimerEvent: {}
+[123.628539] (-) TimerEvent: {}
+[123.731538] (-) TimerEvent: {}
+[123.833355] (-) TimerEvent: {}
+[123.936493] (-) TimerEvent: {}
+[124.039570] (-) TimerEvent: {}
+[124.146888] (-) TimerEvent: {}
+[124.248869] (-) TimerEvent: {}
+[124.351997] (-) TimerEvent: {}
+[124.454670] (-) TimerEvent: {}
+[124.557375] (-) TimerEvent: {}
+[124.659634] (-) TimerEvent: {}
+[124.763026] (-) TimerEvent: {}
+[124.866597] (-) TimerEvent: {}
+[124.970122] (-) TimerEvent: {}
+[125.073654] (-) TimerEvent: {}
+[125.177572] (-) TimerEvent: {}
+[125.284525] (-) TimerEvent: {}
+[125.387882] (-) TimerEvent: {}
+[125.491333] (-) TimerEvent: {}
+[125.595482] (-) TimerEvent: {}
+[125.698453] (-) TimerEvent: {}
+[125.801369] (-) TimerEvent: {}
+[125.903662] (-) TimerEvent: {}
+[126.007285] (-) TimerEvent: {}
+[126.110094] (-) TimerEvent: {}
+[126.214288] (-) TimerEvent: {}
+[126.316987] (-) TimerEvent: {}
+[126.418632] (-) TimerEvent: {}
+[126.520635] (-) TimerEvent: {}
+[126.628002] (-) TimerEvent: {}
+[126.729778] (-) TimerEvent: {}
+[126.831096] (-) TimerEvent: {}
+[126.933332] (-) TimerEvent: {}
+[127.035780] (-) TimerEvent: {}
+[127.139025] (-) TimerEvent: {}
+[127.241543] (-) TimerEvent: {}
+[127.345134] (-) TimerEvent: {}
+[127.447943] (-) TimerEvent: {}
+[127.551171] (-) TimerEvent: {}
+[127.653469] (-) TimerEvent: {}
+[127.755829] (-) TimerEvent: {}
+[127.857600] (-) TimerEvent: {}
+[127.959480] (-) TimerEvent: {}
+[128.062543] (-) TimerEvent: {}
+[128.165750] (-) TimerEvent: {}
+[128.271212] (-) TimerEvent: {}
+[128.377260] (-) TimerEvent: {}
+[128.481565] (-) TimerEvent: {}
+[128.585603] (-) TimerEvent: {}
+[128.697120] (-) TimerEvent: {}
+[128.799873] (-) TimerEvent: {}
+[128.902090] (-) TimerEvent: {}
+[129.003760] (-) TimerEvent: {}
+[129.106358] (-) TimerEvent: {}
+[129.210218] (-) TimerEvent: {}
+[129.312136] (-) TimerEvent: {}
+[129.413735] (-) TimerEvent: {}
+[129.517285] (-) TimerEvent: {}
+[129.626123] (-) TimerEvent: {}
+[129.731239] (-) TimerEvent: {}
+[129.835165] (-) TimerEvent: {}
+[129.938589] (-) TimerEvent: {}
+[130.042303] (-) TimerEvent: {}
+[130.145979] (-) TimerEvent: {}
+[130.247954] (-) TimerEvent: {}
+[130.350840] (-) TimerEvent: {}
+[130.454163] (-) TimerEvent: {}
+[130.556544] (-) TimerEvent: {}
+[130.658681] (-) TimerEvent: {}
+[130.761450] (-) TimerEvent: {}
+[130.863918] (-) TimerEvent: {}
+[130.966679] (-) TimerEvent: {}
+[131.071912] (-) TimerEvent: {}
+[131.184845] (-) TimerEvent: {}
+[131.286646] (-) TimerEvent: {}
+[131.388421] (-) TimerEvent: {}
+[131.490609] (-) TimerEvent: {}
+[131.593347] (-) TimerEvent: {}
+[131.695895] (-) TimerEvent: {}
+[131.800011] (-) TimerEvent: {}
+[131.904545] (-) TimerEvent: {}
+[132.008503] (-) TimerEvent: {}
+[132.116442] (-) TimerEvent: {}
+[132.218741] (-) TimerEvent: {}
+[132.321137] (-) TimerEvent: {}
+[132.424331] (-) TimerEvent: {}
+[132.528526] (-) TimerEvent: {}
+[132.632643] (-) TimerEvent: {}
+[132.736783] (-) TimerEvent: {}
+[132.840152] (-) TimerEvent: {}
+[132.943237] (-) TimerEvent: {}
+[133.046046] (-) TimerEvent: {}
+[133.148189] (-) TimerEvent: {}
+[133.252726] (-) TimerEvent: {}
+[133.364561] (-) TimerEvent: {}
+[133.468260] (-) TimerEvent: {}
+[133.571331] (-) TimerEvent: {}
+[133.673820] (-) TimerEvent: {}
+[133.776705] (-) TimerEvent: {}
+[133.880548] (-) TimerEvent: {}
+[133.982888] (-) TimerEvent: {}
+[134.085594] (-) TimerEvent: {}
+[134.187309] (-) TimerEvent: {}
+[134.300041] (-) TimerEvent: {}
+[134.401410] (-) TimerEvent: {}
+[134.503321] (-) TimerEvent: {}
+[134.609540] (-) TimerEvent: {}
+[134.711417] (-) TimerEvent: {}
+[134.814203] (-) TimerEvent: {}
+[134.917682] (-) TimerEvent: {}
+[135.022784] (-) TimerEvent: {}
+[135.125252] (-) TimerEvent: {}
+[135.227410] (-) TimerEvent: {}
+[135.329632] (-) TimerEvent: {}
+[135.431860] (-) TimerEvent: {}
+[135.533502] (-) TimerEvent: {}
+[135.635827] (-) TimerEvent: {}
+[135.737237] (-) TimerEvent: {}
+[135.839273] (-) TimerEvent: {}
+[135.941994] (-) TimerEvent: {}
+[136.043378] (-) TimerEvent: {}
+[136.144777] (-) TimerEvent: {}
+[136.247078] (-) TimerEvent: {}
+[136.349394] (-) TimerEvent: {}
+[136.452063] (-) TimerEvent: {}
+[136.554980] (-) TimerEvent: {}
+[136.659192] (-) TimerEvent: {}
+[136.760383] (-) TimerEvent: {}
+[136.862282] (-) TimerEvent: {}
+[136.965768] (-) TimerEvent: {}
+[137.067426] (-) TimerEvent: {}
+[137.168709] (-) TimerEvent: {}
+[137.270600] (-) TimerEvent: {}
+[137.373493] (-) TimerEvent: {}
+[137.480240] (-) TimerEvent: {}
+[137.582451] (-) TimerEvent: {}
+[137.685600] (-) TimerEvent: {}
+[137.788263] (-) TimerEvent: {}
+[137.891181] (-) TimerEvent: {}
+[137.993884] (-) TimerEvent: {}
+[138.096805] (-) TimerEvent: {}
+[138.199678] (-) TimerEvent: {}
+[138.302096] (-) TimerEvent: {}
+[138.404348] (-) TimerEvent: {}
+[138.515791] (-) TimerEvent: {}
+[138.618504] (-) TimerEvent: {}
+[138.720050] (-) TimerEvent: {}
+[138.822905] (-) TimerEvent: {}
+[138.925681] (-) TimerEvent: {}
+[139.028473] (-) TimerEvent: {}
+[139.132026] (-) TimerEvent: {}
+[139.233351] (-) TimerEvent: {}
+[139.337358] (-) TimerEvent: {}
+[139.440676] (-) TimerEvent: {}
+[139.543086] (-) TimerEvent: {}
+[139.646724] (-) TimerEvent: {}
+[139.749676] (-) TimerEvent: {}
+[139.851701] (-) TimerEvent: {}
+[139.954781] (-) TimerEvent: {}
+[140.058327] (-) TimerEvent: {}
+[140.160847] (-) TimerEvent: {}
+[140.263394] (-) TimerEvent: {}
+[140.364439] (-) TimerEvent: {}
+[140.466490] (-) TimerEvent: {}
+[140.570020] (-) TimerEvent: {}
+[140.674616] (-) TimerEvent: {}
+[140.777266] (-) TimerEvent: {}
+[140.879976] (-) TimerEvent: {}
+[140.981931] (-) TimerEvent: {}
+[141.092804] (-) TimerEvent: {}
+[141.197052] (-) TimerEvent: {}
+[141.298285] (-) TimerEvent: {}
+[141.399400] (-) TimerEvent: {}
+[141.500580] (-) TimerEvent: {}
+[141.602269] (-) TimerEvent: {}
+[141.703475] (-) TimerEvent: {}
+[141.806056] (-) TimerEvent: {}
+[141.909744] (-) TimerEvent: {}
+[142.012923] (-) TimerEvent: {}
+[142.114555] (-) TimerEvent: {}
+[142.215875] (-) TimerEvent: {}
+[142.316985] (-) TimerEvent: {}
+[142.422696] (-) TimerEvent: {}
+[142.525342] (-) TimerEvent: {}
+[142.627231] (-) TimerEvent: {}
+[142.731961] (-) TimerEvent: {}
+[142.836316] (-) TimerEvent: {}
+[142.940556] (-) TimerEvent: {}
+[143.042110] (-) TimerEvent: {}
+[143.147421] (-) TimerEvent: {}
+[143.253651] (-) TimerEvent: {}
+[143.359077] (-) TimerEvent: {}
+[143.464716] (-) TimerEvent: {}
+[143.568328] (-) TimerEvent: {}
+[143.672209] (-) TimerEvent: {}
+[143.776245] (-) TimerEvent: {}
+[143.880035] (-) TimerEvent: {}
+[143.983701] (-) TimerEvent: {}
+[144.087136] (-) TimerEvent: {}
+[144.191906] (-) TimerEvent: {}
+[144.295253] (-) TimerEvent: {}
+[144.398550] (-) TimerEvent: {}
+[144.504453] (-) TimerEvent: {}
+[144.608633] (-) TimerEvent: {}
+[144.710643] (-) TimerEvent: {}
+[144.814182] (-) TimerEvent: {}
+[144.916854] (-) TimerEvent: {}
+[145.019310] (-) TimerEvent: {}
+[145.120839] (-) TimerEvent: {}
+[145.223855] (-) TimerEvent: {}
+[145.328748] (-) TimerEvent: {}
+[145.433043] (-) TimerEvent: {}
+[145.537026] (-) TimerEvent: {}
+[145.639386] (-) TimerEvent: {}
+[145.742514] (-) TimerEvent: {}
+[145.847054] (-) TimerEvent: {}
+[145.951745] (-) TimerEvent: {}
+[146.056031] (-) TimerEvent: {}
+[146.159139] (-) TimerEvent: {}
+[146.262073] (-) TimerEvent: {}
+[146.363778] (-) TimerEvent: {}
+[146.465060] (-) TimerEvent: {}
+[146.568586] (-) TimerEvent: {}
+[146.672516] (-) TimerEvent: {}
+[146.775860] (-) TimerEvent: {}
+[146.878305] (-) TimerEvent: {}
+[146.980201] (-) TimerEvent: {}
+[147.082409] (-) TimerEvent: {}
+[147.184148] (-) TimerEvent: {}
+[147.285717] (-) TimerEvent: {}
+[147.388508] (-) TimerEvent: {}
+[147.490241] (-) TimerEvent: {}
+[147.595022] (-) TimerEvent: {}
+[147.701983] (-) TimerEvent: {}
+[147.813661] (-) TimerEvent: {}
+[147.922819] (-) TimerEvent: {}
+[148.035261] (-) TimerEvent: {}
+[148.140605] (-) TimerEvent: {}
+[148.245439] (-) TimerEvent: {}
+[148.348708] (-) TimerEvent: {}
+[148.450558] (-) TimerEvent: {}
+[148.553528] (-) TimerEvent: {}
+[148.656560] (-) TimerEvent: {}
+[148.758244] (-) TimerEvent: {}
+[148.861988] (-) TimerEvent: {}
+[148.964042] (-) TimerEvent: {}
+[149.069160] (-) TimerEvent: {}
+[149.171198] (-) TimerEvent: {}
+[149.272955] (-) TimerEvent: {}
+[149.374715] (-) TimerEvent: {}
+[149.476587] (-) TimerEvent: {}
+[149.578479] (-) TimerEvent: {}
+[149.680017] (-) TimerEvent: {}
+[149.783453] (-) TimerEvent: {}
+[149.884742] (-) TimerEvent: {}
+[149.985634] (-) TimerEvent: {}
+[150.086453] (-) TimerEvent: {}
+[150.187529] (-) TimerEvent: {}
+[150.289397] (-) TimerEvent: {}
+[150.393761] (-) TimerEvent: {}
+[150.495848] (-) TimerEvent: {}
+[150.597682] (-) TimerEvent: {}
+[150.700673] (-) TimerEvent: {}
+[150.807602] (-) TimerEvent: {}
+[150.910612] (-) TimerEvent: {}
+[151.012223] (-) TimerEvent: {}
+[151.120451] (-) TimerEvent: {}
+[151.226759] (-) TimerEvent: {}
+[151.328345] (-) TimerEvent: {}
+[151.433301] (-) TimerEvent: {}
+[151.536143] (-) TimerEvent: {}
+[151.639296] (-) TimerEvent: {}
+[151.742345] (-) TimerEvent: {}
+[151.844185] (-) TimerEvent: {}
+[151.947197] (-) TimerEvent: {}
+[152.050745] (-) TimerEvent: {}
+[152.151771] (-) TimerEvent: {}
+[152.252802] (-) TimerEvent: {}
+[152.354389] (-) TimerEvent: {}
+[152.456301] (-) TimerEvent: {}
+[152.559136] (-) TimerEvent: {}
+[152.661684] (-) TimerEvent: {}
+[152.764511] (-) TimerEvent: {}
+[152.868200] (-) TimerEvent: {}
+[152.971656] (-) TimerEvent: {}
+[153.076054] (-) TimerEvent: {}
+[153.178718] (-) TimerEvent: {}
+[153.280894] (-) TimerEvent: {}
+[153.390797] (-) TimerEvent: {}
+[153.493168] (-) TimerEvent: {}
+[153.594956] (-) TimerEvent: {}
+[153.697241] (-) TimerEvent: {}
+[153.799163] (-) TimerEvent: {}
+[153.901134] (-) TimerEvent: {}
+[154.004359] (-) TimerEvent: {}
+[154.106592] (-) TimerEvent: {}
+[154.208910] (-) TimerEvent: {}
+[154.310965] (-) TimerEvent: {}
+[154.414286] (-) TimerEvent: {}
+[154.518301] (-) TimerEvent: {}
+[154.621587] (-) TimerEvent: {}
+[154.726374] (-) TimerEvent: {}
+[154.830162] (-) TimerEvent: {}
+[154.932673] (-) TimerEvent: {}
+[155.036126] (-) TimerEvent: {}
+[155.141291] (-) TimerEvent: {}
+[155.245194] (-) TimerEvent: {}
+[155.348637] (-) TimerEvent: {}
+[155.452584] (-) TimerEvent: {}
+[155.556526] (-) TimerEvent: {}
+[155.659248] (-) TimerEvent: {}
+[155.762018] (-) TimerEvent: {}
+[155.865860] (-) TimerEvent: {}
+[155.970118] (-) TimerEvent: {}
+[156.072480] (-) TimerEvent: {}
+[156.175314] (-) TimerEvent: {}
+[156.278074] (-) TimerEvent: {}
+[156.380035] (-) TimerEvent: {}
+[156.483787] (-) TimerEvent: {}
+[156.585820] (-) TimerEvent: {}
+[156.689008] (-) TimerEvent: {}
+[156.791040] (-) TimerEvent: {}
+[156.892459] (-) TimerEvent: {}
+[156.996183] (-) TimerEvent: {}
+[157.098121] (-) TimerEvent: {}
+[157.200188] (-) TimerEvent: {}
+[157.317437] (-) TimerEvent: {}
+[157.424176] (-) TimerEvent: {}
+[157.526075] (-) TimerEvent: {}
+[157.626925] (-) TimerEvent: {}
+[157.728297] (-) TimerEvent: {}
+[157.830044] (-) TimerEvent: {}
+[157.932820] (-) TimerEvent: {}
+[158.033935] (-) TimerEvent: {}
+[158.135078] (-) TimerEvent: {}
+[158.236249] (-) TimerEvent: {}
+[158.337472] (-) TimerEvent: {}
+[158.438961] (-) TimerEvent: {}
+[158.539774] (-) TimerEvent: {}
+[158.640604] (-) TimerEvent: {}
+[158.741437] (-) TimerEvent: {}
+[158.842458] (-) TimerEvent: {}
+[158.943306] (-) TimerEvent: {}
+[159.045257] (-) TimerEvent: {}
+[159.146094] (-) TimerEvent: {}
+[159.247091] (-) TimerEvent: {}
+[159.349127] (-) TimerEvent: {}
+[159.450910] (-) TimerEvent: {}
+[159.551964] (-) TimerEvent: {}
+[159.653102] (-) TimerEvent: {}
+[159.754629] (-) TimerEvent: {}
+[159.855926] (-) TimerEvent: {}
+[159.957091] (-) TimerEvent: {}
+[160.058278] (-) TimerEvent: {}
+[160.159718] (-) TimerEvent: {}
+[160.260842] (-) TimerEvent: {}
+[160.361952] (-) TimerEvent: {}
+[160.463094] (-) TimerEvent: {}
+[160.741328] (-) TimerEvent: {}
+[160.842639] (-) TimerEvent: {}
+[160.943451] (-) TimerEvent: {}
+[161.044537] (-) TimerEvent: {}
+[161.145628] (-) TimerEvent: {}
+[161.246511] (-) TimerEvent: {}
+[161.347787] (-) TimerEvent: {}
+[161.449436] (-) TimerEvent: {}
+[161.551824] (-) TimerEvent: {}
+[161.652932] (-) TimerEvent: {}
+[161.753853] (-) TimerEvent: {}
+[161.854915] (-) TimerEvent: {}
+[161.955818] (-) TimerEvent: {}
+[162.056904] (-) TimerEvent: {}
+[162.157987] (-) TimerEvent: {}
+[162.259561] (-) TimerEvent: {}
+[162.360411] (-) TimerEvent: {}
+[162.461405] (-) TimerEvent: {}
+[162.562589] (-) TimerEvent: {}
+[162.663450] (-) TimerEvent: {}
+[162.764348] (-) TimerEvent: {}
+[162.865600] (-) TimerEvent: {}
+[162.966447] (-) TimerEvent: {}
+[163.067207] (-) TimerEvent: {}
+[163.168206] (-) TimerEvent: {}
+[163.269286] (-) TimerEvent: {}
+[163.370391] (-) TimerEvent: {}
+[163.471697] (-) TimerEvent: {}
+[163.573096] (-) TimerEvent: {}
+[163.674576] (-) TimerEvent: {}
+[163.775684] (-) TimerEvent: {}
+[163.876831] (-) TimerEvent: {}
+[163.978265] (-) TimerEvent: {}
+[164.079274] (-) TimerEvent: {}
+[164.180357] (-) TimerEvent: {}
+[164.282826] (-) TimerEvent: {}
+[164.386649] (-) TimerEvent: {}
+[164.488291] (-) TimerEvent: {}
+[164.590227] (-) TimerEvent: {}
+[164.692331] (-) TimerEvent: {}
+[164.793445] (-) TimerEvent: {}
+[164.894847] (-) TimerEvent: {}
+[164.996549] (-) TimerEvent: {}
+[165.099021] (-) TimerEvent: {}
+[165.200050] (-) TimerEvent: {}
+[165.301202] (-) TimerEvent: {}
+[165.402413] (-) TimerEvent: {}
+[165.551784] (-) TimerEvent: {}
+[165.590832] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[165.674660] (-) TimerEvent: {}
+[165.778059] (-) TimerEvent: {}
+[165.879413] (-) TimerEvent: {}
+[165.982142] (-) TimerEvent: {}
+[166.085702] (-) TimerEvent: {}
+[166.188016] (-) TimerEvent: {}
+[166.289956] (-) TimerEvent: {}
+[166.390808] (-) TimerEvent: {}
+[166.492991] (-) TimerEvent: {}
+[166.595138] (-) TimerEvent: {}
+[166.696160] (-) TimerEvent: {}
+[166.797220] (-) TimerEvent: {}
+[166.898272] (-) TimerEvent: {}
+[166.999395] (-) TimerEvent: {}
+[167.100643] (-) TimerEvent: {}
+[167.202134] (-) TimerEvent: {}
+[167.304849] (-) TimerEvent: {}
+[167.407238] (-) TimerEvent: {}
+[167.509570] (-) TimerEvent: {}
+[167.612759] (-) TimerEvent: {}
+[167.716883] (-) TimerEvent: {}
+[167.819559] (-) TimerEvent: {}
+[167.921575] (-) TimerEvent: {}
+[168.023269] (-) TimerEvent: {}
+[168.125006] (-) TimerEvent: {}
+[168.227253] (-) TimerEvent: {}
+[168.328906] (-) TimerEvent: {}
+[168.430563] (-) TimerEvent: {}
+[168.532067] (-) TimerEvent: {}
+[168.634512] (-) TimerEvent: {}
+[168.737674] (-) TimerEvent: {}
+[168.842549] (-) TimerEvent: {}
+[168.945467] (-) TimerEvent: {}
+[169.048027] (-) TimerEvent: {}
+[169.149862] (-) TimerEvent: {}
+[169.251702] (-) TimerEvent: {}
+[169.353999] (-) TimerEvent: {}
+[169.457202] (-) TimerEvent: {}
+[169.562529] (-) TimerEvent: {}
+[169.664500] (-) TimerEvent: {}
+[169.766244] (-) TimerEvent: {}
+[169.868223] (-) TimerEvent: {}
+[169.970432] (-) TimerEvent: {}
+[170.076064] (-) TimerEvent: {}
+[170.178933] (-) TimerEvent: {}
+[170.286435] (-) TimerEvent: {}
+[170.391432] (-) TimerEvent: {}
+[170.497419] (-) TimerEvent: {}
+[170.600399] (-) TimerEvent: {}
+[170.702995] (-) TimerEvent: {}
+[170.806618] (-) TimerEvent: {}
+[170.911349] (-) TimerEvent: {}
+[171.014855] (-) TimerEvent: {}
+[171.117372] (-) TimerEvent: {}
+[171.220885] (-) TimerEvent: {}
+[171.322729] (-) TimerEvent: {}
+[171.424358] (-) TimerEvent: {}
+[171.526257] (-) TimerEvent: {}
+[171.629376] (-) TimerEvent: {}
+[171.731665] (-) TimerEvent: {}
+[171.833610] (-) TimerEvent: {}
+[171.936268] (-) TimerEvent: {}
+[172.038267] (-) TimerEvent: {}
+[172.146320] (-) TimerEvent: {}
+[172.247615] (-) TimerEvent: {}
+[172.348998] (-) TimerEvent: {}
+[172.450400] (-) TimerEvent: {}
+[172.552502] (-) TimerEvent: {}
+[172.663679] (-) TimerEvent: {}
+[172.767169] (-) TimerEvent: {}
+[172.871871] (-) TimerEvent: {}
+[172.973478] (-) TimerEvent: {}
+[173.075093] (-) TimerEvent: {}
+[173.178398] (-) TimerEvent: {}
+[173.279988] (-) TimerEvent: {}
+[173.385669] (-) TimerEvent: {}
+[173.488422] (-) TimerEvent: {}
+[173.591284] (-) TimerEvent: {}
+[173.694118] (-) TimerEvent: {}
+[173.795540] (-) TimerEvent: {}
+[173.896869] (-) TimerEvent: {}
+[173.998113] (-) TimerEvent: {}
+[174.099811] (-) TimerEvent: {}
+[174.204150] (-) TimerEvent: {}
+[174.283611] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[174.304528] (-) TimerEvent: {}
+[174.406440] (-) TimerEvent: {}
+[174.469843] (hello_moveit) CommandEnded: {'returncode': 0}
+[174.501591] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[174.517008] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/perry/Jesus/Prueba6/build/hello_moveit'], 'cwd': '/home/perry/Jesus/Prueba6/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'perry'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/perry'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/perry/Jesus/Prueba6/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1600'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'perry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'perry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberry:@/tmp/.ICE-unix/1264,unix/raspberry:/tmp/.ICE-unix/1264'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46e0073d_0502_4b2f_b5c9_c8a7f598a8e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GZE032'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bce5cff3f2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/perry/Jesus/Prueba6/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/perry/Jesus/Prueba6/build/my_package:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble')]), 'shell': False}
+[174.528477] (-) TimerEvent: {}
+[174.628037] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[174.629999] (-) TimerEvent: {}
+[174.645175] (hello_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[174.648964] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[174.659422] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[174.666247] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[174.681907] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[174.692401] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[174.696873] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[174.698566] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[174.702429] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[174.707379] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[174.717072] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[174.724104] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[174.727931] (hello_moveit) StdoutLine: {'line': b'-- Symlinking: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[174.731773] (-) TimerEvent: {}
+[174.839036] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[174.840257] (-) TimerEvent: {}
+[174.842480] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[174.845049] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[174.849091] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/perry/Jesus/Prueba6/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[174.884460] (hello_moveit) CommandEnded: {'returncode': 0}
+[174.943447] (-) TimerEvent: {}
+[175.045837] (-) TimerEvent: {}
+[175.149885] (-) TimerEvent: {}
+[175.199873] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[175.222355] (-) EventReactorShutdown: {}

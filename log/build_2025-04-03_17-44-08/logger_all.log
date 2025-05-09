@@ -1,0 +1,254 @@
+[1.248s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.248s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff90284040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff90257b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff90257b50>>, mixin_verb=('build',))
+[3.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.485s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/perry/Jesus/Prueba6'
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extensions ['ignore', 'ignore_ament_install']
+[3.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extension 'ignore'
+[3.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extension 'ignore_ament_install'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extensions ['colcon_pkg']
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extension 'colcon_pkg'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extensions ['colcon_meta']
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extension 'colcon_meta'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extensions ['ros']
+[3.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_ros_description) by extension 'ros'
+[3.611s] DEBUG:colcon.colcon_core.package_identification:Package 'src/irc_ros_description' with type 'ros.ament_cmake' and name 'irc_ros_description'
+[3.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['ignore', 'ignore_ament_install']
+[3.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'ignore'
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'ignore_ament_install'
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['colcon_pkg']
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'colcon_pkg'
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['colcon_meta']
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'colcon_meta'
+[3.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['ros']
+[3.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'ros'
+[3.617s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit' with type 'ros.ament_cmake' and name 'moveit'
+[3.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[3.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[3.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[3.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[3.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[3.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.826s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/perry/Jesus/Prueba5/install
+[3.839s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/perry/Jesus/Prueba5/src/moveit/install
+[3.868s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 436 installed packages in /opt/ros/humble
+[3.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'cmake_args' from command line to 'None'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'cmake_target' from command line to 'None'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'irc_ros_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.684s] DEBUG:colcon.colcon_core.verb:Building package 'irc_ros_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perry/Jesus/Prueba6/build/irc_ros_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perry/Jesus/Prueba6/install/irc_ros_description', 'merge_install': False, 'path': '/home/perry/Jesus/Prueba6/src/irc_ros_description', 'symlink_install': False, 'test_result_base': None}
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_args' from command line to 'None'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_target' from command line to 'None'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_clean_first' from command line to 'False'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_force_configure' from command line to 'False'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'ament_cmake_args' from command line to 'None'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[4.687s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.687s] DEBUG:colcon.colcon_core.verb:Building package 'moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perry/Jesus/Prueba6/build/moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perry/Jesus/Prueba6/install/moveit', 'merge_install': False, 'path': '/home/perry/Jesus/Prueba6/src/moveit', 'symlink_install': False, 'test_result_base': None}
+[4.689s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[4.690s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[4.691s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.691s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/perry/Jesus/Prueba6/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/perry/Jesus/Prueba6/install/my_package', 'merge_install': False, 'path': '/home/perry/Jesus/Prueba6/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[4.691s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.698s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/perry/Jesus/Prueba6/src/irc_ros_description' with build type 'ament_cmake'
+[4.698s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/perry/Jesus/Prueba6/src/irc_ros_description'
+[4.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.767s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/perry/Jesus/Prueba6/src/moveit' with build type 'ament_cmake'
+[4.768s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/perry/Jesus/Prueba6/src/moveit'
+[4.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.810s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/perry/Jesus/Prueba6/src/my_package' with build type 'ament_python'
+[4.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[4.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[4.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[4.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perry/Jesus/Prueba6/build/irc_ros_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/irc_ros_description -- -j4 -l4
+[4.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit
+[7.082s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/perry/Jesus/Prueba6/src/my_package'
+[7.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perry/Jesus/Prueba6/build/irc_ros_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/irc_ros_description -- -j4 -l4
+[7.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perry/Jesus/Prueba6/build/irc_ros_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/irc_ros_description
+[7.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irc_ros_description)
+[7.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perry/Jesus/Prueba6/build/irc_ros_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/irc_ros_description
+[7.535s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description' for CMake module files
+[7.542s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description' for CMake config files
+[7.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('irc_ros_description', 'cmake_prefix_path')
+[7.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/hook/cmake_prefix_path.ps1'
+[7.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/hook/cmake_prefix_path.dsv'
+[7.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/hook/cmake_prefix_path.sh'
+[7.567s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/bin'
+[7.568s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/lib/pkgconfig/irc_ros_description.pc'
+[7.569s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/lib/python3.10/site-packages'
+[7.570s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/bin'
+[7.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.ps1'
+[7.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.dsv'
+[7.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.sh'
+[7.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.bash'
+[7.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.zsh'
+[7.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perry/Jesus/Prueba6/install/irc_ros_description/share/colcon-core/packages/irc_ros_description)
+[7.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irc_ros_description)
+[7.617s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description' for CMake module files
+[7.622s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description' for CMake config files
+[7.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('irc_ros_description', 'cmake_prefix_path')
+[7.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/hook/cmake_prefix_path.ps1'
+[7.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/hook/cmake_prefix_path.dsv'
+[7.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/hook/cmake_prefix_path.sh'
+[7.640s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/bin'
+[7.641s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/lib/pkgconfig/irc_ros_description.pc'
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/lib/python3.10/site-packages'
+[7.643s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/irc_ros_description/bin'
+[7.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.ps1'
+[7.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.dsv'
+[7.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.sh'
+[7.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.bash'
+[7.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/irc_ros_description/share/irc_ros_description/package.zsh'
+[7.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perry/Jesus/Prueba6/install/irc_ros_description/share/colcon-core/packages/irc_ros_description)
+[11.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perry/Jesus/Prueba6/src/my_package': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/perry/Jesus/Prueba6/build/my_package/build install --record /home/perry/Jesus/Prueba6/build/my_package/install.log --single-version-externally-managed install_data
+[11.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit
+[11.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[12.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[12.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit
+[12.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit)
+[12.205s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit' for CMake module files
+[12.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/perry/Jesus/Prueba5/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit
+[12.210s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit' for CMake config files
+[12.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit', 'cmake_prefix_path')
+[12.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/hook/cmake_prefix_path.ps1'
+[12.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/hook/cmake_prefix_path.dsv'
+[12.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/hook/cmake_prefix_path.sh'
+[12.221s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/bin'
+[12.221s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/lib/pkgconfig/moveit.pc'
+[12.222s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/lib/python3.10/site-packages'
+[12.223s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/bin'
+[12.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.ps1'
+[12.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.dsv'
+[12.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.sh'
+[12.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.bash'
+[12.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.zsh'
+[12.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perry/Jesus/Prueba6/install/moveit/share/colcon-core/packages/moveit)
+[12.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit)
+[12.245s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit' for CMake module files
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit' for CMake config files
+[12.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit', 'cmake_prefix_path')
+[12.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/hook/cmake_prefix_path.ps1'
+[12.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/hook/cmake_prefix_path.dsv'
+[12.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/hook/cmake_prefix_path.sh'
+[12.260s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/bin'
+[12.261s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/lib/pkgconfig/moveit.pc'
+[12.262s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/lib/python3.10/site-packages'
+[12.264s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/moveit/bin'
+[12.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.ps1'
+[12.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.dsv'
+[12.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.sh'
+[12.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.bash'
+[12.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.zsh'
+[12.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perry/Jesus/Prueba6/install/moveit/share/colcon-core/packages/moveit)
+[13.297s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/my_package' for CMake module files
+[13.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/perry/Jesus/Prueba6/src/my_package' returned '0': PYTHONPATH=/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/perry/Jesus/Prueba6/build/my_package/build install --record /home/perry/Jesus/Prueba6/build/my_package/install.log --single-version-externally-managed install_data
+[13.301s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/my_package' for CMake config files
+[13.310s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/my_package/lib'
+[13.312s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/my_package/bin'
+[13.313s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/my_package/lib/pkgconfig/my_package.pc'
+[13.314s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages'
+[13.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[13.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/hook/pythonpath.ps1'
+[13.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/hook/pythonpath.dsv'
+[13.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/hook/pythonpath.sh'
+[13.325s] Level 1:colcon.colcon_core.environment:checking '/home/perry/Jesus/Prueba6/install/my_package/bin'
+[13.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[13.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/package.ps1'
+[13.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/package.dsv'
+[13.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/package.sh'
+[13.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/package.bash'
+[13.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/perry/Jesus/Prueba6/install/my_package/share/my_package/package.zsh'
+[13.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/perry/Jesus/Prueba6/install/my_package/share/colcon-core/packages/my_package)
+[13.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.342s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.425s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.561s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perry/Jesus/Prueba6/install/local_setup.ps1'
+[13.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/perry/Jesus/Prueba6/install/_local_setup_util_ps1.py'
+[13.588s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perry/Jesus/Prueba6/install/setup.ps1'
+[13.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perry/Jesus/Prueba6/install/local_setup.sh'
+[13.605s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/perry/Jesus/Prueba6/install/_local_setup_util_sh.py'
+[13.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perry/Jesus/Prueba6/install/setup.sh'
+[13.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perry/Jesus/Prueba6/install/local_setup.bash'
+[13.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perry/Jesus/Prueba6/install/setup.bash'
+[13.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/perry/Jesus/Prueba6/install/local_setup.zsh'
+[13.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/perry/Jesus/Prueba6/install/setup.zsh'

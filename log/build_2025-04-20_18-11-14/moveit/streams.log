@@ -1,0 +1,35 @@
+[0.265s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit
+[0.866s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.923s] -- Configuring done
+[4.000s] -- Generating done
+[4.035s] -- Build files have been written to: /home/perry/Jesus/Prueba6/build/moveit
+[4.092s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake /home/perry/Jesus/Prueba6/src/moveit -DCMAKE_INSTALL_PREFIX=/home/perry/Jesus/Prueba6/install/moveit
+[4.125s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[4.517s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[4.657s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit
+[4.768s] -- Install configuration: "Debug"
+[4.770s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+[4.772s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+[4.779s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.sh
+[4.788s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+[4.790s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.sh
+[4.797s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.dsv
+[4.799s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.bash
+[4.803s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.sh
+[4.804s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.zsh
+[4.805s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.dsv
+[4.806s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.dsv
+[4.808s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/packages/moveit
+[4.818s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig.cmake
+[4.821s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+[4.826s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.xml
+[4.829s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config
+[4.830s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/joint_limits.yaml
+[4.833s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.ros2_control.xacro
+[4.836s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml
+[4.852s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.srdf
+[4.866s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/kinematics.yaml
+[4.869s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/initial_positions.yaml
+[4.870s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/config/igus_rebel_6dof.urdf.xacro
+[4.871s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/.setup_assistant
+[4.886s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/hello_moveit:/home/perry/Jesus/Prueba6/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit

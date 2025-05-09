@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.010185] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.013025] (-) JobUnselected: {'identifier': 'irc_ros_description'}
+[0.016665] (-) JobUnselected: {'identifier': 'moveit2_pose_target'}
+[0.020181] (-) JobUnselected: {'identifier': 'robot'}
+[0.023738] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.025995] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.096225] (-) TimerEvent: {}
+[0.218006] (-) TimerEvent: {}
+[0.319850] (-) TimerEvent: {}
+[0.420984] (-) TimerEvent: {}
+[0.522905] (-) TimerEvent: {}
+[0.624359] (-) TimerEvent: {}
+[0.725243] (-) TimerEvent: {}
+[0.826744] (-) TimerEvent: {}
+[0.927760] (-) TimerEvent: {}
+[1.029330] (-) TimerEvent: {}
+[1.130317] (-) TimerEvent: {}
+[1.231483] (-) TimerEvent: {}
+[1.333268] (-) TimerEvent: {}
+[1.434157] (-) TimerEvent: {}
+[1.534956] (-) TimerEvent: {}
+[1.635886] (-) TimerEvent: {}
+[1.736991] (-) TimerEvent: {}
+[1.838063] (-) TimerEvent: {}
+[1.939172] (-) TimerEvent: {}
+[2.040083] (-) TimerEvent: {}
+[2.141137] (-) TimerEvent: {}
+[2.242563] (-) TimerEvent: {}
+[2.344403] (-) TimerEvent: {}
+[2.445495] (-) TimerEvent: {}
+[2.546325] (-) TimerEvent: {}
+[2.647126] (-) TimerEvent: {}
+[2.747979] (-) TimerEvent: {}
+[2.848897] (-) TimerEvent: {}
+[2.950400] (-) TimerEvent: {}
+[3.052052] (-) TimerEvent: {}
+[3.153222] (-) TimerEvent: {}
+[3.257398] (-) TimerEvent: {}
+[3.358495] (-) TimerEvent: {}
+[3.459472] (-) TimerEvent: {}
+[3.561211] (-) TimerEvent: {}
+[3.663849] (-) TimerEvent: {}
+[3.765255] (-) TimerEvent: {}
+[3.866876] (-) TimerEvent: {}
+[3.967884] (-) TimerEvent: {}
+[4.068990] (-) TimerEvent: {}
+[4.170155] (-) TimerEvent: {}
+[4.275942] (-) TimerEvent: {}
+[4.380256] (-) TimerEvent: {}
+[4.483279] (-) TimerEvent: {}
+[4.585306] (-) TimerEvent: {}
+[4.687471] (-) TimerEvent: {}
+[4.789468] (-) TimerEvent: {}
+[4.892538] (-) TimerEvent: {}
+[4.995061] (-) TimerEvent: {}
+[5.096646] (-) TimerEvent: {}
+[5.198139] (-) TimerEvent: {}
+[5.299783] (-) TimerEvent: {}
+[5.400718] (-) TimerEvent: {}
+[5.502261] (-) TimerEvent: {}
+[5.606389] (-) TimerEvent: {}
+[5.708256] (-) TimerEvent: {}
+[5.810283] (-) TimerEvent: {}
+[5.911194] (-) TimerEvent: {}
+[6.012523] (-) TimerEvent: {}
+[6.113815] (-) TimerEvent: {}
+[6.215670] (-) TimerEvent: {}
+[6.316639] (-) TimerEvent: {}
+[6.418201] (-) TimerEvent: {}
+[6.521488] (-) TimerEvent: {}
+[6.622996] (-) TimerEvent: {}
+[6.724014] (-) TimerEvent: {}
+[6.825418] (-) TimerEvent: {}
+[6.926916] (-) TimerEvent: {}
+[7.028488] (-) TimerEvent: {}
+[7.129933] (-) TimerEvent: {}
+[7.230807] (-) TimerEvent: {}
+[7.334150] (-) TimerEvent: {}
+[7.436063] (-) TimerEvent: {}
+[7.537461] (-) TimerEvent: {}
+[7.639418] (-) TimerEvent: {}
+[7.741060] (-) TimerEvent: {}
+[7.842954] (-) TimerEvent: {}
+[7.944610] (-) TimerEvent: {}
+[8.046152] (-) TimerEvent: {}
+[8.147427] (-) TimerEvent: {}
+[8.248398] (-) TimerEvent: {}
+[8.349903] (-) TimerEvent: {}
+[8.451269] (-) TimerEvent: {}
+[8.552952] (-) TimerEvent: {}
+[8.654086] (-) TimerEvent: {}
+[8.755508] (-) TimerEvent: {}
+[8.857214] (-) TimerEvent: {}
+[8.958764] (-) TimerEvent: {}
+[9.059826] (-) TimerEvent: {}
+[9.161959] (-) TimerEvent: {}
+[9.263491] (-) TimerEvent: {}
+[9.365737] (-) TimerEvent: {}
+[9.467103] (-) TimerEvent: {}
+[9.569840] (-) TimerEvent: {}
+[9.672835] (-) TimerEvent: {}
+[9.774154] (-) TimerEvent: {}
+[9.875519] (-) TimerEvent: {}
+[9.977146] (-) TimerEvent: {}
+[10.078614] (-) TimerEvent: {}
+[10.180032] (-) TimerEvent: {}
+[10.281554] (-) TimerEvent: {}
+[10.382546] (-) TimerEvent: {}
+[10.483991] (-) TimerEvent: {}
+[10.585914] (-) TimerEvent: {}
+[10.687055] (-) TimerEvent: {}
+[10.788281] (-) TimerEvent: {}
+[10.889318] (-) TimerEvent: {}
+[10.991320] (-) TimerEvent: {}
+[11.093285] (-) TimerEvent: {}
+[11.195454] (-) TimerEvent: {}
+[11.297180] (-) TimerEvent: {}
+[11.398162] (-) TimerEvent: {}
+[11.499090] (-) TimerEvent: {}
+[11.600257] (-) TimerEvent: {}
+[11.701605] (-) TimerEvent: {}
+[11.803225] (-) TimerEvent: {}
+[11.906279] (-) TimerEvent: {}
+[12.008395] (-) TimerEvent: {}
+[12.084772] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/perry/Jesus/Prueba6/build/my_package/build', 'install', '--record', '/home/perry/Jesus/Prueba6/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/perry/Jesus/Prueba6/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'perry', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/perry/Jesus/Prueba6/install/rviz_marker_tools/lib:/home/perry/Jesus/Prueba6/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/perry', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/perry', 'TERM_PROGRAM_VERSION': '1.99.3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1414', 'BUNDLED_DEBUGPY_PATH': '/home/perry/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'perry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'perry', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/perry/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/raspberry:@/tmp/.ICE-unix/1166,unix/raspberry:/tmp/.ICE-unix/1166', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/961a718f_4a30_400e_8517_377d5cb279e0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/perry/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-923fb4aae082e7a6.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YQSS52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bce5cff3f2.sock', 'GNOME_TERMINAL_SERVICE': ':1.94', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install/rviz_marker_tools:/home/perry/Jesus/Prueba6/install/robot:/home/perry/Jesus/Prueba6/install/my_package:/home/perry/Jesus/Prueba6/install/moveit_task_constructor_msgs:/home/perry/Jesus/Prueba6/install/moveit_resources_prbt_support:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/moveit_configs_utils:/home/perry/Jesus/Prueba6/install/moveit_common:/home/perry/Jesus/Prueba6/install/moveit2_pose_target:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/perry/Jesus/Prueba6/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/perry/Jesus/Prueba6/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages:/home/perry/Jesus/Prueba6/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/perry/Jesus/Prueba6/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/perry/Jesus/Prueba6/install/rviz_marker_tools:/home/perry/Jesus/Prueba6/install/robot:/home/perry/Jesus/Prueba6/install/moveit_task_constructor_msgs:/home/perry/Jesus/Prueba6/install/moveit_resources_prbt_support:/home/perry/Jesus/Prueba6/install/moveit:/home/perry/Jesus/Prueba6/install/moveit_common:/home/perry/Jesus/Prueba6/install/moveit2_pose_target:/home/perry/Jesus/Prueba6/install/irc_ros_description:/home/perry/Jesus/Prueba6/install/hello_moveit'}, 'shell': False}
+[12.108539] (-) TimerEvent: {}
+[12.211547] (-) TimerEvent: {}
+[12.313497] (-) TimerEvent: {}
+[12.416571] (-) TimerEvent: {}
+[12.519226] (-) TimerEvent: {}
+[12.621754] (-) TimerEvent: {}
+[12.725512] (-) TimerEvent: {}
+[12.830033] (-) TimerEvent: {}
+[12.932107] (-) TimerEvent: {}
+[13.041611] (-) TimerEvent: {}
+[13.142659] (-) TimerEvent: {}
+[13.243954] (-) TimerEvent: {}
+[13.344805] (-) TimerEvent: {}
+[13.445894] (-) TimerEvent: {}
+[13.547791] (-) TimerEvent: {}
+[13.649200] (-) TimerEvent: {}
+[13.751124] (-) TimerEvent: {}
+[13.852761] (-) TimerEvent: {}
+[13.954246] (-) TimerEvent: {}
+[14.055561] (-) TimerEvent: {}
+[14.157041] (-) TimerEvent: {}
+[14.258400] (-) TimerEvent: {}
+[14.359621] (-) TimerEvent: {}
+[14.461219] (-) TimerEvent: {}
+[14.562534] (-) TimerEvent: {}
+[14.663767] (-) TimerEvent: {}
+[14.765002] (-) TimerEvent: {}
+[14.866723] (-) TimerEvent: {}
+[14.968295] (-) TimerEvent: {}
+[15.070037] (-) TimerEvent: {}
+[15.171388] (-) TimerEvent: {}
+[15.272275] (-) TimerEvent: {}
+[15.373324] (-) TimerEvent: {}
+[15.474381] (-) TimerEvent: {}
+[15.575803] (-) TimerEvent: {}
+[15.681331] (-) TimerEvent: {}
+[15.789398] (-) TimerEvent: {}
+[15.909327] (-) TimerEvent: {}
+[16.019728] (-) TimerEvent: {}
+[16.124545] (-) TimerEvent: {}
+[16.233588] (-) TimerEvent: {}
+[16.322235] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[16.352182] (-) TimerEvent: {}
+[16.353187] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[16.357166] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[16.361189] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[16.364829] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[16.366652] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[16.369974] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[16.381210] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[16.397540] (my_package) StdoutLine: {'line': b'running build\n'}
+[16.405069] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[16.408509] (my_package) StdoutLine: {'line': b'copying my_package/nodo_IO.py -> /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package\n'}
+[16.413871] (my_package) StdoutLine: {'line': b'running install\n'}
+[16.418938] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[16.420919] (my_package) StdoutLine: {'line': b'copying /home/perry/Jesus/Prueba6/build/my_package/build/lib/my_package/nodo_IO.py -> /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[16.426534] (my_package) StdoutLine: {'line': b'byte-compiling /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package/nodo_IO.py to nodo_IO.cpython-310.pyc\n'}
+[16.431170] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[16.435867] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.441724] (my_package) StdoutLine: {'line': b"removing '/home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.446309] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/perry/Jesus/Prueba6/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[16.452240] (-) TimerEvent: {}
+[16.455907] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[16.553151] (-) TimerEvent: {}
+[16.657240] (-) TimerEvent: {}
+[16.659395] (my_package) StdoutLine: {'line': b'Installing nodo_IO script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[16.663357] (my_package) StdoutLine: {'line': b'Installing nodo_cinematica script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[16.667062] (my_package) StdoutLine: {'line': b'Installing nodo_mando script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[16.671367] (my_package) StdoutLine: {'line': b'Installing nodo_mensaje_recibido script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[16.676959] (my_package) StdoutLine: {'line': b'Installing pose_moveit script to /home/perry/Jesus/Prueba6/install/my_package/lib/my_package\n'}
+[16.718828] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/perry/Jesus/Prueba6/build/my_package/install.log'\n"}
+[16.757745] (-) TimerEvent: {}
+[16.859122] (-) TimerEvent: {}
+[16.944875] (my_package) CommandEnded: {'returncode': 0}
+[16.960397] (-) TimerEvent: {}
+[17.066253] (-) TimerEvent: {}
+[17.105626] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[17.111210] (-) EventReactorShutdown: {}

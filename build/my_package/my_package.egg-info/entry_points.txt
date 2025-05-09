@@ -1,4 +1,7 @@
 [console_scripts]
+nodo_IO = my_package.nodo_IO:main
 nodo_cinematica = my_package.nodo_cinematica:main
-nodo_cinematica_inv = my_package.nodo_cinematica_inv:main
 nodo_mando = my_package.nodo_mando:main
+nodo_mensaje_recibido = my_package.nodo_mensaje_recibido:main
+pose_moveit = my_package.nodo_pose_moveit:main
+

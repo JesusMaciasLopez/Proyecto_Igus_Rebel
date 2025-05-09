@@ -1,0 +1,4 @@
+Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit
+Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit

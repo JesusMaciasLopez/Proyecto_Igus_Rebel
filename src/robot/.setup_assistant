@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: irc_ros_description
+    relative_path: urdf/igus_rebel_6dof.urdf.xacro
+  srdf:
+    relative_path: config/igus_rebel_6dof.srdf
+  package_settings:
+    author_name: Jesus David Macias Lopez
+    author_email: jechudavi4@gmail.com
+    generated_timestamp: 1745265519

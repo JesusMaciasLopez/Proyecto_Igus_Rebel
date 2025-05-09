@@ -23,6 +23,8 @@ setup(
             'nodo_mando = my_package.nodo_mando:main',
             'nodo_cinematica = my_package.nodo_cinematica:main',
             'pose_moveit = my_package.nodo_pose_moveit:main',
+            'nodo_IO = my_package.nodo_IO:main',
+            'nodo_mensaje_recibido = my_package.nodo_mensaje_recibido:main'
         ],
     },
 )

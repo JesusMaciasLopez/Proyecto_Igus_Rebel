@@ -1,0 +1,4 @@
+source;share/moveit2_pose_target/local_setup.bash
+source;share/moveit2_pose_target/local_setup.dsv
+source;share/moveit2_pose_target/local_setup.sh
+source;share/moveit2_pose_target/local_setup.zsh

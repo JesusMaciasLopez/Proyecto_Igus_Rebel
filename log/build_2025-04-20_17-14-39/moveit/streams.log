@@ -1,0 +1,20 @@
+[0.455s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[7.666s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/perry/Jesus/Prueba6/build/moveit -- -j4 -l4
+[7.682s] Invoking command in '/home/perry/Jesus/Prueba6/build/moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit
+[8.599s] -- Install configuration: "Debug"
+[8.601s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+[8.603s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+[8.604s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.sh
+[8.606s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+[8.625s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.sh
+[8.626s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/environment/path.dsv
+[8.642s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.bash
+[8.644s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.sh
+[8.646s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.zsh
+[8.647s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/local_setup.dsv
+[8.657s] -- Installing: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.dsv
+[8.659s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/ament_index/resource_index/packages/moveit
+[8.662s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig.cmake
+[8.664s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+[8.683s] -- Up-to-date: /home/perry/Jesus/Prueba6/install/moveit/share/moveit/package.xml
+[8.807s] Invoked command in '/home/perry/Jesus/Prueba6/build/moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/perry/Jesus/Prueba6/build/moveit

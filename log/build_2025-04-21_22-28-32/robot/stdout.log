@@ -1,0 +1,39 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/perry/Jesus/Prueba6/build/robot
+-- Install configuration: "Debug"
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/ament_prefix_path.sh
+-- Installing: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/path.sh
+-- Installing: /home/perry/Jesus/Prueba6/install/robot/share/robot/environment/path.dsv
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.bash
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.sh
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.zsh
+-- Installing: /home/perry/Jesus/Prueba6/install/robot/share/robot/local_setup.dsv
+-- Installing: /home/perry/Jesus/Prueba6/install/robot/share/robot/package.dsv
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/ament_index/resource_index/packages/robot
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/cmake/robotConfig.cmake
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/cmake/robotConfig-version.cmake
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/package.xml
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/setup_assistant.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/moveit_rviz.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/warehouse_db.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/static_virtual_joint_tfs.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/move_group.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/spawn_controllers.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/rsp.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/launch/demo.launch.py
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/joint_limits.yaml
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/ros2_controllers.yaml
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/sensors_3d.yaml
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/moveit_controllers.yaml
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/moveit.rviz
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/igus_rebel_6dof.srdf
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/config/kinematics.yaml
+-- Up-to-date: /home/perry/Jesus/Prueba6/install/robot/share/robot/.setup_assistant

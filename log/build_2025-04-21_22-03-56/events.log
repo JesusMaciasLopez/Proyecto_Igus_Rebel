@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000760] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.001001] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.001104] (-) JobUnselected: {'identifier': 'irc_ros_description'}
+[0.001189] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001273] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.001357] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001438] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001518] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001598] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001677] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001757] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001837] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001916] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001996] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.002075] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.002153] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.002232] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.002311] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.002439] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.002529] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.002642] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.002736] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.002818] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.002897] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.002975] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.003053] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.003131] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.003209] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.003288] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.003367] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.003445] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.003522] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.003602] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.003682] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.003760] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.003839] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.003918] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.003997] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.004092] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.004182] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.004261] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.004338] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.004416] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.004494] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004571] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.004650] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.004728] (-) JobUnselected: {'identifier': 'robot'}
+[0.004806] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.004895] (moveit2_tutorials) JobQueued: {'identifier': 'moveit2_tutorials', 'dependencies': OrderedDict([('moveit_common', '/home/perry/Jesus/Prueba6/install/moveit_common'), ('moveit_configs_utils', '/home/perry/Jesus/Prueba6/install/moveit_configs_utils'), ('moveit_resources_prbt_support', '/home/perry/Jesus/Prueba6/install/moveit_resources_prbt_support'), ('moveit_task_constructor_msgs', '/home/perry/Jesus/Prueba6/install/moveit_task_constructor_msgs'), ('moveit_core', '/home/perry/Jesus/Prueba6/install/moveit_core'), ('rviz_marker_tools', '/home/perry/Jesus/Prueba6/install/rviz_marker_tools'), ('chomp_motion_planner', '/home/perry/Jesus/Prueba6/install/chomp_motion_planner'), ('moveit_resources_prbt_ikfast_manipulator_plugin', '/home/perry/Jesus/Prueba6/install/moveit_resources_prbt_ikfast_manipulator_plugin'), ('moveit_ros_occupancy_map_monitor', '/home/perry/Jesus/Prueba6/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/perry/Jesus/Prueba6/install/moveit_simple_controller_manager'), ('pilz_industrial_motion_planner_testutils', '/home/perry/Jesus/Prueba6/install/pilz_industrial_motion_planner_testutils'), ('moveit_planners_chomp', '/home/perry/Jesus/Prueba6/install/moveit_planners_chomp'), ('moveit_plugins', '/home/perry/Jesus/Prueba6/install/moveit_plugins'), ('moveit_ros_planning', '/home/perry/Jesus/Prueba6/install/moveit_ros_planning'), ('moveit_kinematics', '/home/perry/Jesus/Prueba6/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/perry/Jesus/Prueba6/install/moveit_planners_ompl'), ('moveit_ros_perception', '/home/perry/Jesus/Prueba6/install/moveit_ros_perception'), ('moveit_ros_robot_interaction', '/home/perry/Jesus/Prueba6/install/moveit_ros_robot_interaction'), ('moveit_ros_warehouse', '/home/perry/Jesus/Prueba6/install/moveit_ros_warehouse'), ('moveit_ros_benchmarks', '/home/perry/Jesus/Prueba6/install/moveit_ros_benchmarks'), ('moveit_ros_move_group', '/home/perry/Jesus/Prueba6/install/moveit_ros_move_group'), ('moveit_resources_prbt_moveit_config', '/home/perry/Jesus/Prueba6/install/moveit_resources_prbt_moveit_config'), ('moveit_ros_planning_interface', '/home/perry/Jesus/Prueba6/install/moveit_ros_planning_interface'), ('moveit_hybrid_planning', '/home/perry/Jesus/Prueba6/install/moveit_hybrid_planning'), ('moveit_resources_prbt_pg70_support', '/home/perry/Jesus/Prueba6/install/moveit_resources_prbt_pg70_support'), ('moveit_ros_visualization', '/home/perry/Jesus/Prueba6/install/moveit_ros_visualization'), ('moveit_servo', '/home/perry/Jesus/Prueba6/install/moveit_servo'), ('moveit_ros', '/home/perry/Jesus/Prueba6/install/moveit_ros'), ('moveit_setup_framework', '/home/perry/Jesus/Prueba6/install/moveit_setup_framework'), ('pilz_industrial_motion_planner', '/home/perry/Jesus/Prueba6/install/pilz_industrial_motion_planner'), ('moveit_planners', '/home/perry/Jesus/Prueba6/install/moveit_planners'), ('moveit_setup_app_plugins', '/home/perry/Jesus/Prueba6/install/moveit_setup_app_plugins'), ('moveit_setup_controllers', '/home/perry/Jesus/Prueba6/install/moveit_setup_controllers'), ('moveit_setup_core_plugins', '/home/perry/Jesus/Prueba6/install/moveit_setup_core_plugins'), ('moveit_setup_srdf_plugins', '/home/perry/Jesus/Prueba6/install/moveit_setup_srdf_plugins'), ('moveit_setup_assistant', '/home/perry/Jesus/Prueba6/install/moveit_setup_assistant'), ('moveit_task_constructor_core', '/home/perry/Jesus/Prueba6/install/moveit_task_constructor_core'), ('moveit', '/home/perry/Jesus/Prueba6/install/moveit')])}
+[0.005200] (moveit2_tutorials) JobStarted: {'identifier': 'moveit2_tutorials'}
+[0.096505] (-) TimerEvent: {}
+[0.199106] (-) TimerEvent: {}
+[0.281702] (moveit2_tutorials) JobEnded: {'identifier': 'moveit2_tutorials', 'rc': 1}
+[0.293670] (-) EventReactorShutdown: {}
